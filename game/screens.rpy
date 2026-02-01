@@ -1,7 +1,8 @@
-﻿################################################################################
+################################################################################
 ## Inicialización
 ################################################################################
 
+# Define el desplazamiento de inicialización para que este código se ejecute antes que otros bloques init
 init offset = -1
 
 
@@ -9,71 +10,83 @@ init offset = -1
 ## Estilos
 ################################################################################
 
+# Define el estilo por defecto para todo el texto usando las propiedades de la GUI
 style default:
-    properties gui.text_properties()
-    language gui.language
+    properties gui.text_properties()  # Aplica propiedades de texto predefinidas
+    language gui.language               # Establece el idioma del texto
 
+# Define el estilo para campos de entrada de texto
 style input:
-    properties gui.text_properties("input", accent=True)
-    adjust_spacing False
+    properties gui.text_properties("input", accent=True)  # Usa propiedades de entrada con acento
+    adjust_spacing False                                      # No ajusta el espaciado automáticamente
 
+# Define el estilo para enlaces de hipertexto
 style hyperlink_text:
-    properties gui.text_properties("hyperlink", accent=True)
-    hover_underline True
+    properties gui.text_properties("hyperlink", accent=True)  # Usa propiedades de hipervínculo con acento
+    hover_underline True                                        # Subraya al pasar el cursor
 
+# Define el estilo base para texto de la interfaz gráfica
 style gui_text:
-    properties gui.text_properties("interface")
+    properties gui.text_properties("interface")  # Aplica propiedades de interfaz
 
-
+# Define el estilo para botones
 style button:
-    properties gui.button_properties("button")
+    properties gui.button_properties("button")  # Usa propiedades predefinidas para botones
 
+# Define el estilo para texto dentro de botones, heredando de gui_text
 style button_text is gui_text:
-    properties gui.text_properties("button")
-    yalign 0.5
+    properties gui.text_properties("button")  # Aplica propiedades de texto de botón
+    yalign 0.5                                # Centra verticalmente el texto
 
-
+# Define el estilo para etiquetas (labels), heredando de gui_text
 style label_text is gui_text:
-    properties gui.text_properties("label", accent=True)
+    properties gui.text_properties("label", accent=True)  # Usa propiedades de etiqueta con acento
 
+# Define el estilo para texto de prompts, heredando de gui_text
 style prompt_text is gui_text:
-    properties gui.text_properties("prompt")
+    properties gui.text_properties("prompt")  # Usa propiedades de texto de prompt
 
 
+# Define el estilo para barras de progreso horizontales
 style bar:
-    ysize gui.bar_size
-    left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
-    right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+    ysize gui.bar_size                                                                          # Define el alto de la barra
+    left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)                      # Imagen para el lado izquierdo
+    right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)                    # Imagen para el lado derecho
 
+# Define el estilo para barras de progreso verticales
 style vbar:
-    xsize gui.bar_size
-    top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
-    bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
+    xsize gui.bar_size                                                                          # Define el ancho de la barra
+    top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)                       # Imagen para la parte superior
+    bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)                 # Imagen para la parte inferior
 
+# Define el estilo para barras de desplazamiento horizontales
 style scrollbar:
-    ysize gui.scrollbar_size
-    base_bar Frame("gui/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    ysize gui.scrollbar_size                                                                    # Define el alto de la barra de scroll
+    base_bar Frame("gui/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)  # Imagen base
+    thumb Frame("gui/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)  # Imagen del pulgar
 
+# Define el estilo para barras de desplazamiento verticales
 style vscrollbar:
-    xsize gui.scrollbar_size
-    base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    xsize gui.scrollbar_size                                                                    # Define el ancho de la barra de scroll
+    base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)    # Imagen base
+    thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)    # Imagen del pulgar
 
+# Define el estilo para controles deslizantes horizontales
 style slider:
-    ysize gui.slider_size
-    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/horizontal_[prefix_]thumb.png"
+    ysize gui.slider_size                                                                        # Define el alto del slider
+    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)            # Imagen base
+    thumb "gui/slider/horizontal_[prefix_]thumb.png"                                            # Imagen del control deslizante
 
+# Define el estilo para controles deslizantes verticales
 style vslider:
-    xsize gui.slider_size
-    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/vertical_[prefix_]thumb.png"
+    xsize gui.slider_size                                                                        # Define el ancho del slider
+    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)              # Imagen base
+    thumb "gui/slider/vertical_[prefix_]thumb.png"                                              # Imagen del control deslizante
 
-
+# Define el estilo para marcos (frames) contenedores
 style frame:
-    padding gui.frame_borders.padding
-    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
+    padding gui.frame_borders.padding                                                            # Define el espaciado interior del marco
+    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)                   # Imagen de fondo del marco
 
 
 
@@ -95,71 +108,82 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+# Define la pantalla de diálogo que muestra conversaciones entre personajes
 screen say(who, what):
 
+    # Crea una ventana principal para contener el diálogo
     window:
-        id "window"
+        id "window"                     # Identificador único para la ventana
 
+        # Si hay un nombre de personaje (who no es None), muestra el nombre
         if who is not None:
 
+            # Crea una ventana secundaria para el nombre del personaje
             window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+                id "namebox"            # Identificador para la caja de nombre
+                style "namebox"         # Aplica el estilo de caja de nombre
+                text who id "who"       # Muestra el nombre del personaje
 
+        # Muestra el texto del diálogo con el identificador requerido "what"
         text what id "what"
 
 
     ## Si hay una imagen lateral, la muestra encima del texto. No la muestra en
     ## la variante de teléfono - no hay lugar.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+    if not renpy.variant("small"):     # Verifica si no es la variante móvil pequeña
+        add SideImage() xalign 0.0 yalign 1.0    # Añade la imagen lateral alineada a la izquierda
 
 
 ## Permite que el 'namebox' pueda ser estilizado en el objeto 'Character'.
 init python:
-    config.character_id_prefixes.append('namebox')
+    config.character_id_prefixes.append('namebox')  # Añade 'namebox' como prefijo de ID para estilización
 
-style window is default
-style say_label is default
-style say_dialogue is default
-style say_thought is say_dialogue
+# Define estilos relacionados con el diálogo
+style window is default          # El estilo de ventana hereda del estilo default
+style say_label is default       # El estilo de etiqueta de diálogo hereda del estilo default
+style say_dialogue is default    # El estilo de texto de diálogo hereda del estilo default
+style say_thought is say_dialogue  # El estilo de pensamientos hereda del diálogo
 
-style namebox is default
-style namebox_label is say_label
+# Define estilos para la caja de nombre
+style namebox is default          # El estilo de caja de nombre hereda del estilo default
+style namebox_label is say_label  # La etiqueta de la caja de nombre usa el estilo say_label
 
 
+# Configura el estilo de la ventana de diálogo
 style window:
-    xalign 0.5
-    xfill True
-    yalign gui.textbox_yalign
-    ysize gui.textbox_height
+    xalign 0.5                                            # Centra horizontalmente
+    xfill True                                             # Ocupa todo el ancho disponible
+    yalign gui.textbox_yalign                              # Alineación vertical predefinida
+    ysize gui.textbox_height                               # Altura predefinida de la caja de texto
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)  # Imagen de fondo alineada abajo y centrada
 
+# Configura el estilo de la caja de nombre
 style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
+    xpos gui.name_xpos                                     # Posición X predefinida
+    xanchor gui.name_xalign                                # Anclaje horizontal predefinido
+    xsize gui.namebox_width                                # Ancho predefinido
+    ypos gui.name_ypos                                     # Posición Y predefinida
+    ysize gui.namebox_height                               # Altura predefinida
 
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
+    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)  # Marco de fondo
+    padding gui.namebox_borders.padding                     # Espaciado interior del marco
 
+# Configura el estilo de la etiqueta de nombre
 style say_label:
-    properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
-    yalign 0.5
+    properties gui.text_properties("name", accent=True)   # Propiedades de texto para nombre con acento
+    xalign gui.name_xalign                                 # Alineación horizontal predefinida
+    yalign 0.5                                             # Centra verticalmente
 
+# Configura el estilo del texto de diálogo
 style say_dialogue:
-    properties gui.text_properties("dialogue")
+    properties gui.text_properties("dialogue")              # Propiedades de texto para diálogo
 
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
+    xpos gui.dialogue_xpos                                 # Posición X predefinida
+    xsize gui.dialogue_width                               # Ancho predefinido
+    ypos gui.dialogue_ypos                                 # Posición Y predefinida
 
-    adjust_spacing False
+    adjust_spacing False                                    # No ajusta el espaciado automáticamente
 
 ## Pantalla de introducción de texto ###########################################
 ##
@@ -171,29 +195,38 @@ style say_dialogue:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#input
 
+# Define la pantalla para entrada de texto del usuario
 screen input(prompt):
-    style_prefix "input"
+    style_prefix "input"                                   # Aplica prefijo de estilo "input"
 
+    # Crea una ventana contenedora
     window:
 
+        # Crea un contenedor vertical
         vbox:
-            xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
+            xanchor gui.dialogue_text_xalign                # Anclaje horizontal del texto
+            xpos gui.dialogue_xpos                          # Posición X predefinida
+            xsize gui.dialogue_width                        # Ancho predefinido
+            ypos gui.dialogue_ypos                          # Posición Y predefinida
 
+            # Muestra el texto de solicitud (prompt)
             text prompt style "input_prompt"
+            
+            # Crea el campo de entrada de texto con ID requerido
             input id "input"
 
+# Define el estilo del texto de solicitud heredando del estilo default
 style input_prompt is default
 
+# Configura el estilo del texto de solicitud
 style input_prompt:
-    xalign gui.dialogue_text_xalign
-    properties gui.text_properties("input_prompt")
+    xalign gui.dialogue_text_xalign                        # Alineación horizontal predefinida
+    properties gui.text_properties("input_prompt")         # Propiedades de texto para solicitud
 
+# Configura el estilo del campo de entrada
 style input:
-    xalign gui.dialogue_text_xalign
-    xmaximum gui.dialogue_width
+    xalign gui.dialogue_text_xalign                        # Alineación horizontal predefinida
+    xmaximum gui.dialogue_width                            # Ancho máximo permitido
 
 
 ## Pantalla de menú ############################################################
@@ -204,30 +237,36 @@ style input:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
+# Define la pantalla de menú de elecciones
 screen choice(items):
-    style_prefix "choice"
+    style_prefix "choice"                                  # Aplica prefijo de estilo "choice"
 
+    # Crea un contenedor vertical
     vbox:
+        # Itera sobre cada elemento de la lista de opciones
         for i in items:
+            # Crea un botón de texto con la opción y su acción correspondiente
             textbutton i.caption action i.action
 
+# Define estilos para los componentes del menú de elección
+style choice_vbox is vbox                                   # El contenedor vertical hereda de vbox
+style choice_button is button                               # Los botones heredan de button
+style choice_button_text is button_text                     # El texto de botones hereda de button_text
 
-style choice_vbox is vbox
-style choice_button is button
-style choice_button_text is button_text
-
+# Configura el estilo del contenedor vertical de elecciones
 style choice_vbox:
-    xalign 0.5
-    ypos 405
-    yanchor 0.5
+    xalign 0.5                                              # Centra horizontalmente
+    ypos 405                                                # Posición vertical específica
+    yanchor 0.5                                             # Anclaje vertical centrado
+    spacing gui.choice_spacing                              # Espaciado entre elementos predefinido
 
-    spacing gui.choice_spacing
-
+# Configura el estilo de los botones de elección
 style choice_button is default:
-    properties gui.button_properties("choice_button")
+    properties gui.button_properties("choice_button")        # Propiedades predefinidas para botones de elección
 
+# Configura el estilo del texto de los botones de elección
 style choice_button_text is default:
-    properties gui.text_properties("choice_button")
+    properties gui.text_properties("choice_button")          # Propiedades de texto para botones de elección
 
 
 ## Pantalla de menú rápido #####################################################
@@ -235,47 +274,70 @@ style choice_button_text is default:
 ## El menú rápido se presenta en el juego para ofrecer fácil acceso a los menus
 ## externos al juego.
 
+# Define la pantalla del menú rápido de acceso durante el juego
 screen quick_menu():
 
     ## Asegura que esto aparezca en la parte superior de otras pantallas.
-    zorder 100
+    zorder 100                                              # Prioridad de renderizado máxima
 
+    # Solo muestra el menú rápido si está habilitado
     if quick_menu:
 
+        # Crea un contenedor horizontal para los botones
         hbox:
-            style_prefix "quick"
-            style "quick_menu"
+            style_prefix "quick"                            # Aplica prefijo de estilo "quick"
+            style "quick_menu"                              # Aplica estilo específico del menú rápido
 
+            # Botón para retroceder en el diálogo
             textbutton _("Atrás") action Rollback()
+            
+            # Botón para acceder al historial de diálogo
             textbutton _("Historial") action ShowMenu('history')
+            
+            # Botón para saltar diálogo (normal o rápido)
             textbutton _("Saltar") action Skip() alternate Skip(fast=True, confirm=True)
+            
+            # Botón para activar/desactivar avance automático
             textbutton _("Auto") action Preference("auto-forward", "toggle")
+            
+            # Botón para abrir menú de guardado
             textbutton _("Guardar") action ShowMenu('save')
+            
+            # Botón para guardar partida rápidamente
             textbutton _("Guardar R.") action QuickSave()
+            
+            # Botón para cargar partida rápida
             textbutton _("Cargar R.") action QuickLoad()
+            
+            # Botón para acceder a preferencias
             textbutton _("Prefs.") action ShowMenu('preferences')
 
 
 ## Este código asegura que la pantalla 'quick_menu' se muestra en el juego,
 ## mientras el jugador no haya escondido explícitamente la interfaz.
 init python:
-    config.overlay_screens.append("quick_menu")
+    config.overlay_screens.append("quick_menu")             # Añade quick_menu a la lista de pantallas superpuestas
 
+# Variable por defecto para controlar la visibilidad del menú rápido
 default quick_menu = True
 
-style quick_menu is hbox
-style quick_button is default
-style quick_button_text is button_text
+# Define estilos para los componentes del menú rápido
+style quick_menu is hbox                                    # El contenedor hereda de hbox
+style quick_button is default                               # Los botones heredan de default
+style quick_button_text is button_text                     # El texto hereda de button_text
 
+# Configura el estilo del contenedor del menú rápido
 style quick_menu:
-    xalign 0.5
-    yalign 1.0
+    xalign 0.5                                              # Centra horizontalmente
+    yalign 1.0                                              # Alinea al fondo de la pantalla
 
+# Configura el estilo de los botones del menú rápido
 style quick_button:
-    properties gui.button_properties("quick_button")
+    properties gui.button_properties("quick_button")         # Propiedades predefinidas para botones rápidos
 
+# Configura el estilo del texto de los botones del menú rápido
 style quick_button_text:
-    properties gui.text_properties("quick_button")
+    properties gui.text_properties("quick_button")           # Propiedades de texto para botones rápidos
 
 
 ################################################################################
@@ -287,61 +349,72 @@ style quick_button_text:
 ## Esta pantalla está incluída en el menú principal y los menús del juego y
 ## ofrece navegación a los otros menús y al inicio del juego.
 
+# Define la pantalla de navegación principal
 screen navigation():
 
+    # Crea un contenedor vertical para los botones de navegación
     vbox:
-        style_prefix "navigation"
+        style_prefix "navigation"                            # Aplica prefijo de estilo "navigation"
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        xpos gui.navigation_xpos                             # Posición X predefinida
+        yalign 0.5                                           # Centra verticalmente
 
-        spacing gui.navigation_spacing
+        spacing gui.navigation_spacing                       # Espaciado entre botones predefinido
 
+        # Si estamos en el menú principal, muestra el botón de empezar
         if main_menu:
 
-            textbutton _("Comenzar") action Start()
+            textbutton _("Comenzar") action Start()           # Botón para comenzar nueva partida
 
-        else:
+        else:                                                # Si no, estamos en el menú del juego
 
-            textbutton _("Historial") action ShowMenu("history")
+            textbutton _("Historial") action ShowMenu("history")  # Botón para ver historial
+            textbutton _("Guardar") action ShowMenu("save")        # Botón para guardar partida
 
-            textbutton _("Guardar") action ShowMenu("save")
-
+        # Botón de cargar partida (siempre visible)
         textbutton _("Cargar") action ShowMenu("load")
 
+        # Botón de opciones (siempre visible)
         textbutton _("Opciones") action ShowMenu("preferences")
 
+        # Si estamos en modo repetición
         if _in_replay:
 
-            textbutton _("Finaliza repetición") action EndReplay(confirm=True)
+            textbutton _("Finaliza repetición") action EndReplay(confirm=True)  # Botón para terminar repetición
 
-        elif not main_menu:
+        elif not main_menu:                                  # Si no estamos en menú principal ni en repetición
 
-            textbutton _("Menú principal") action MainMenu()
+            textbutton _("Menú principal") action MainMenu()  # Botón para volver al menú principal
 
+        # Botón de Acerca de (siempre visible)
         textbutton _("Acerca de") action ShowMenu("about")
 
+        # Si es PC o Web no móvil, muestra el botón de ayuda
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## La ayuda no es necesaria ni relevante en dispositivos móviles.
             textbutton _("Ayuda") action ShowMenu("help")
 
+        # Si es PC, muestra el botón de salir
         if renpy.variant("pc"):
 
             ## El botón de salida está prohibido en iOS y no es necesario en
             ## Android y Web.
-            textbutton _("Salir") action Quit(confirm=not main_menu)
+            textbutton _("Salir") action Quit(confirm=not main_menu)  # Botón para salir del juego
 
 
-style navigation_button is gui_button
-style navigation_button_text is gui_button_text
+# Define estilos para los componentes de navegación
+style navigation_button is gui_button                        # Los botones heredan de gui_button
+style navigation_button_text is gui_button_text              # El texto hereda de gui_button_text
 
+# Configura el estilo de los botones de navegación
 style navigation_button:
-    size_group "navigation"
-    properties gui.button_properties("navigation_button")
+    size_group "navigation"                                   # Agrupa botones para igualar tamaño
+    properties gui.button_properties("navigation_button")    # Propiedades predefinidas para botones de navegación
 
+# Configura el estilo del texto de los botones de navegación
 style navigation_button_text:
-    properties gui.text_properties("navigation_button")
+    properties gui.text_properties("navigation_button")      # Propiedades de texto para botones de navegación
 
 
 ## Pantalla del menú principal #################################################
@@ -350,60 +423,70 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+# Define la pantalla del menú principal
 screen main_menu():
 
     ## Esto asegura que cualquier otra pantalla de menu es remplazada.
-    tag menu
+    tag menu                                                # Etiqueta que reemplaza otros menús
 
-    add gui.main_menu_background
+    add gui.main_menu_background                            # Añade la imagen de fondo del menú principal
 
     ## Este marco vacío oscurece el menu principal.
     frame:
-        style "main_menu_frame"
+        style "main_menu_frame"                              # Aplica estilo de marco del menú principal
 
     ## La sentencia 'use' incluye otra pantalla dentro de esta. El contenido
     ## real del menú principal está en la pantalla de navegación.
-    use navigation
+    use navigation                                          # Incluye la pantalla de navegación
 
+    # Si está configurado para mostrar el nombre del juego
     if gui.show_name:
 
+        # Crea un contenedor vertical para el título y versión
         vbox:
-            style "main_menu_vbox"
+            style "main_menu_vbox"                           # Aplica estilo del contenedor vertical
 
+            # Muestra el nombre del juego (config.name) con transformación de texto
             text "[config.name!t]":
-                style "main_menu_title"
+                style "main_menu_title"                      # Aplica estilo de título
 
+            # Muestra la versión del juego
             text "[config.version]":
-                style "main_menu_version"
+                style "main_menu_version"                    # Aplica estilo de versión
 
 
-style main_menu_frame is empty
-style main_menu_vbox is vbox
-style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
+# Define estilos para los componentes del menú principal
+style main_menu_frame is empty                               # El marco hereda del estilo empty
+style main_menu_vbox is vbox                                 # El contenedor vertical hereda de vbox
+style main_menu_text is gui_text                             # El texto hereda de gui_text
+style main_menu_title is main_menu_text                     # El título hereda del texto del menú
+style main_menu_version is main_menu_text                   # La versión hereda del texto del menú
 
+# Configura el estilo del marco del menú principal
 style main_menu_frame:
-    xsize 420
-    yfill True
+    xsize 420                                                # Ancho fijo del marco
+    yfill True                                               # Ocupa todo el alto disponible
+    background "gui/overlay/main_menu.png"                   # Imagen de fondo del marco
 
-    background "gui/overlay/main_menu.png"
-
+# Configura el estilo del contenedor vertical del menú principal
 style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
+    xalign 1.0                                               # Alinea a la derecha
+    xoffset -30                                              # Desplazamiento izquierdo desde el borde
+    xmaximum 1200                                            # Ancho máximo permitido
+    yalign 1.0                                               # Alinea al fondo
+    yoffset -30                                              # Desplazamiento hacia arriba desde el fondo
 
+# Configura el estilo base del texto del menú principal
 style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
+    properties gui.text_properties("main_menu", accent=True)  # Propiedades de texto con acento
 
+# Configura el estilo del título del menú principal
 style main_menu_title:
-    properties gui.text_properties("title")
+    properties gui.text_properties("title")                  # Propiedades predefinidas para título
 
+# Configura el estilo de la versión del menú principal
 style main_menu_version:
-    properties gui.text_properties("version")
+    properties gui.text_properties("version")                # Propiedades predefinidas para versión
 
 
 ## Pantalla del menú del juego #################################################
@@ -415,75 +498,86 @@ style main_menu_version:
 ## pantalla con uno o más elementos, que son transcluídos (situados) en su
 ## interior.
 
+# Define la pantalla base para los menús del juego
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
-    style_prefix "game_menu"
+    style_prefix "game_menu"                               # Aplica prefijo de estilo "game_menu"
 
+    # Selecciona el fondo apropiado según si estamos en el menú principal o no
     if main_menu:
-        add gui.main_menu_background
+        add gui.main_menu_background                         # Fondo del menú principal
     else:
-        add gui.game_menu_background
+        add gui.game_menu_background                          # Fondo del menú del juego
 
+    # Crea un marco exterior contenedor
     frame:
-        style "game_menu_outer_frame"
+        style "game_menu_outer_frame"                         # Aplica estilo del marco exterior
 
+        # Crea un contenedor horizontal
         hbox:
 
             ## Reservar espacio para la sección de navegación.
             frame:
-                style "game_menu_navigation_frame"
+                style "game_menu_navigation_frame"           # Marco para la sección de navegación
 
+            # Marco principal para el contenido
             frame:
-                style "game_menu_content_frame"
+                style "game_menu_content_frame"              # Marco para el contenido principal
 
+                # Si el scroll es de tipo viewport
                 if scroll == "viewport":
 
                     viewport:
-                        yinitial yinitial
-                        scrollbars "vertical"
-                        mousewheel True
-                        draggable True
-                        pagekeys True
+                        yinitial yinitial                     # Posición Y inicial
+                        scrollbars "vertical"                  # Barra de scroll vertical
+                        mousewheel True                        # Habilita scroll con rueda del ratón
+                        draggable True                         # Permite arrastrar
+                        pagekeys True                          # Habilita teclas de página
 
-                        side_yfill True
+                        side_yfill True                        # El contenido ocupa todo el alto
 
                         vbox:
-                            spacing spacing
+                            spacing spacing                   # Espaciado entre elementos
 
-                            transclude
+                            transclude                       # Transcluye el contenido aquí
 
+                # Si el scroll es de tipo vpgrid (viewport grid)
                 elif scroll == "vpgrid":
 
                     vpgrid:
-                        cols 1
-                        yinitial yinitial
+                        cols 1                                # Una columna
+                        yinitial yinitial                     # Posición Y inicial
 
-                        scrollbars "vertical"
-                        mousewheel True
-                        draggable True
-                        pagekeys True
+                        scrollbars "vertical"                  # Barra de scroll vertical
+                        mousewheel True                        # Habilita scroll con rueda del ratón
+                        draggable True                         # Permite arrastrar
+                        pagekeys True                          # Habilita teclas de página
 
-                        side_yfill True
+                        side_yfill True                        # El contenido ocupa todo el alto
 
-                        spacing spacing
+                        spacing spacing                       # Espaciado entre elementos
 
-                        transclude
+                        transclude                           # Transcluye el contenido aquí
 
+                # Si no hay scroll
                 else:
 
-                    transclude
+                    transclude                               # Transcluye el contenido directamente
 
+    # Incluye la pantalla de navegación
     use navigation
 
+    # Botón para volver al menú anterior
     textbutton _("Volver"):
-        style "return_button"
+        style "return_button"                                # Aplica estilo de botón de retorno
+        action Return()                                       # Acción para volver atrás
 
-        action Return()
-
+    # Muestra el título del menú
     label title
 
+    # Si estamos en el menú principal, permite acceder con tecla ESC
     if main_menu:
-        key "game_menu" action ShowMenu("main_menu")
+        key "game_menu" action ShowMenu("main_menu")         # Tecla de menú abre el menú principal
 
 
 style game_menu_outer_frame is empty

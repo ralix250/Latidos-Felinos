@@ -1,4 +1,4 @@
-﻿## Este archivo contiene opciones que pueden cambiarse para personalizar el
+## Este archivo contiene opciones que pueden cambiarse para personalizar el
 ## juego.
 ##
 ## Las líneas que empiezan con doble '#' son comentarios, no deben ser
@@ -13,31 +13,31 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("Latidos Felinos")
+define config.name = _("Latidos Felinos")  # Define el nombre del juego, marcado como traducible con _()
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para ocultar el título.
 
-define gui.show_name = True
+define gui.show_name = True  # Controla la visibilidad del título en el menú principal (True=visible, False=oculto)
 
 
 ## Versión del juego.
 
-define config.version = "1.0"
+define config.version = "1.0"  # Establece el número de versión del juego para identificación y control de cambios
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
 ## comillas triples y deja una línea en blanco entre párrafos.
 
 define gui.about = _p("""
-""")
+""")  # Define el texto para la sección "Acerca de", actualmente vacío entre comillas triples
 
 
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
 ## Debe contener solo carácteres ASCII, sin espacios, comas o puntos y coma.
 
-define build.name = "LatidosFelinos"
+define build.name = "LatidosFelinos"  # Nombre corto del proyecto para archivos y carpetas (sin espacios, ASCII)
 
 
 ## Sonidos y música ############################################################
@@ -46,23 +46,23 @@ define build.name = "LatidosFelinos"
 ## muestran al reproductor de forma predeterminada. Establecer uno de estos en
 ## False ocultará el mezclador apropiado. 
 
-define config.has_sound = True
-define config.has_music = True
-define config.has_voice = True
+define config.has_sound = True  # Habilita el canal de efectos de sonido (True=activo, False=inactivo)
+define config.has_music = True  # Habilita el canal de música de fondo (True=activo, False=inactivo)
+define config.has_voice = True  # Habilita el canal de voces/diálogos doblados (True=activo, False=inactivo)
 
 
 ## Para permitir al usuario probar el volumen de los canales de sonido o voz,
 ## descomenta la línea más abajo y ajústala a un sonido de ejemplo.
 
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
+# define config.sample_sound = "sample-sound.ogg"  # Archivo de sonido para probar volumen de efectos (comentado)
+# define config.sample_voice = "sample-voice.ogg"  # Archivo de voz para probar volumen de voces (comentado)
 
 
 ## Descomenta la línea siguiente para ajustar un archivo de audio que sonará en
 ## el menú principal. Este archivo seguirá sonando en el juego hasta que sea
 ## detenido o se reproduzca otro archivo.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+# define config.main_menu_music = "main-menu-theme.ogg"  # Música del menú principal (comentado, sin archivo asignado)
 
 
 ## Transiciones ################################################################
@@ -73,23 +73,23 @@ define config.has_voice = True
 
 ## Entrar o salir del manú del juego.
 
-define config.enter_transition = dissolve
-define config.exit_transition = dissolve
+define config.enter_transition = dissolve  # Transición al entrar al menú del juego (disolver)
+define config.exit_transition = dissolve   # Transición al salir del menú del juego (disolver)
 
 
 ## Entre pantallas del menú del juego.
 
-define config.intra_transition = dissolve
+define config.intra_transition = dissolve  # Transición entre diferentes pantallas del menú (disolver)
 
 
 ## Transición tras la carga de una partida.
 
-define config.after_load_transition = None
+define config.after_load_transition = None  # Transición después de cargar partida (None=sin transición)
 
 
 ## Transición de acceso al menú principal tras finalizar el juego.
 
-define config.end_game_transition = None
+define config.end_game_transition = None  # Transición al volver al menú principal después de terminar (None=sin transición)
 
 
 ## No existe la variable que ajusta la transición cuando el juego comienza. Para
