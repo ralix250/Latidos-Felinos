@@ -1,0 +1,8 @@
+---- FrikyPlaza ----
+Tipo de Base : Pueblo/Ciudad
+etiqueta : LF_ENCUENTROS, Latidos_Felinos
+Nombre : FrikyPlaza
+Detalles (Sección de notas) : Lugar de encuentro por primera vez.
+lugar de citas 
+
+

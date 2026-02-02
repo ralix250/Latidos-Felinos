@@ -1,0 +1,6 @@
+---- Cine ----
+Tipo de Base : Pueblo/Ciudad
+Nombre : Cine
+Detalles (Sección de notas) : Citas 
+
+

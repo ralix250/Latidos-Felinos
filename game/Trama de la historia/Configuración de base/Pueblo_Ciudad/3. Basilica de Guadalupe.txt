@@ -1,0 +1,7 @@
+---- Basilica de Guadalupe ----
+Tipo de Base : Pueblo/Ciudad
+etiqueta : LF_ENCUENTROS, Latidos_Felinos
+Nombre : Basilica de Guadalupe
+Detalles (Sección de notas) : Lugar de encuentro cuando se vuelven novios
+
+

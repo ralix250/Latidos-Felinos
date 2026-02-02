@@ -1,0 +1,7 @@
+---- Torre Latino ----
+Tipo de Base : Pueblo/Ciudad
+etiqueta : LF_ENCUENTROS, Latidos_Felinos
+Nombre : Torre Latino
+Detalles (Sección de notas) : Citas
+
+

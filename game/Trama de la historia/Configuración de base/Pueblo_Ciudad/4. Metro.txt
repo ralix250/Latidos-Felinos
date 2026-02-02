@@ -1,0 +1,7 @@
+---- Metro ----
+Tipo de Base : Pueblo/Ciudad
+etiqueta : LF_ENCUENTROS, Latidos_Felinos
+Nombre : Metro
+Detalles (Sección de notas) : Punto de encuentro de los personajes 
+
+

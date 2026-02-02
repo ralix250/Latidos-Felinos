@@ -1,0 +1,90 @@
+---- Trama ----
+Total : 453 palabras, Escena : 36 palabras, Acto : 72 palabras, Diálogo : 345 palabras
+
+-- Apertura --
+- Día que se conocen -
+Total : 319 palabras, Escena : 32 palabras, Acto : 49 palabras, Diálogo : 238 palabras
+Sumario : plaza de videojuegos 
+Falta de economía 
+ Total : 150 palabras, Escena : 2 palabras, Acto : 35 palabras, Diálogo : 113 palabras
+ Notas : presentación de los personajes
+ Lugar : Casa
+ Zona horaria : Amanecer
+ Clima : Cielos soleados
+  Escena : Ralix despierta
+    Acto : Preparación para ir a la FrikyPlaza junto con sus amigos y jugar videojuegos 
+      Ralix 'vamos a limpiar rápido, tengo que llegar con los youu'(alegría)
+      Ralix 'y a quedó la cama, vamos por la limpieza personal'(alegría)
+      Narrador 'mientras el realizaba su aseo personal, una dulce joven estaba preparándose para ir con sus amigas a disfrutar del dia'
+      Ralix 'Bueno pues ya me voy'(alegría)
+      Multitud 'Nos vemos chaparrito te cuidas'
+      Ralix 'Hasta al ratito papis, los amo 😘'(alegría)
+      Narrador 'comienza el viaje mientras recuerda lo que le costó regresar a su casa '
+    Acto : Mientras escucha musica en el transporte recuerda lo que paso el día anterior para llegar a casa después de su escuela
+      Ralix '3 horas esperando en el metrobus '(vigilancia)
+      Ralix 'que bueno que después de tanto logrará subir pero bajar tan rapido'(vigilancia)
+      Ralix 'salió bastante caro el viaje '(vigilancia)
+      Narrador 'Después de todo lo que estuvo repasando pensó que todo fue mentira, la manifestación que mencionaron no'
+
+Sumario : casa
+ Total : 169 palabras, Escena : 30 palabras, Acto : 14 palabras, Diálogo : 125 palabras
+ Lugar : casa
+ Zona horaria : Mañana
+ Clima : Cielos soleados
+  Escena : Zuky se levanta de la cama y comienza su rutina matutina 
+    Acto : Preparación para ir con sus amigas
+      Zuky 'hoy toca cita con las chavas'(calma)
+      Zuky 'vamos a dejar limpio por qué el camino es largo'
+      menú  (aprobación)
+  Escena : veamos que conviene más metro o combi
+    Acto : toma el metro 
+      Zuky 'vamos por el metro es más barato'(calma)
+      Zuky 'Solo recordar lo que paso ayer me pone de nervios'(miedo)
+      Zuky 'bueno ya estoy en el metro a escuchar música en lo que llegó al lugar '(calma)
+      Narrador 'viaje en metro'
+    Acto : toma la combi
+      Zuky 'vamos por la combi, espero no se tarde'(calma)
+      Zuky 'después de lo de ayer no pensé que se pusiera tan feo'(miedo)
+      Multitud 'Sube a la combi'
+      Zuky 'pues llevo algunos minutos y no veo destrozos como decían en la radio'(calma)
+  Escena : Zuky llegó a la estación donde estarían sus amigas esperándola 
+    Acto : saludos
+      Multitud 'ya llegó Zuky'(alegría)
+      Zuky 'hola que tal ¿Cómo están?'(alegría)
+      Multitud 'Bien, no nos pasó nada '(alegría)
+      Zuky 'estuvieron feas las noticias'(alegría)
+      Narrador 'entre ellas iban platicando y alegrandose de estar juntas y divirtiéndose en lo que llegabna. ala FrikyPlaza '
+
+
+-- Encuentro --
+- Ambos protagonistas llegan a la FrikyPlaza  -
+Total : 134 palabras, Escena : 4 palabras, Acto : 23 palabras, Diálogo : 107 palabras
+Sumario : Ambos protagonistas llegan a pisos diferentes y en horarios diferentes 
+cada quien llega con sus amigos y siguen divirtiendoae
+feliz
+ Total : 134 palabras, Escena : 4 palabras, Acto : 23 palabras, Diálogo : 107 palabras
+  Escena : llegada de los youu
+    Acto : los amigos de ralix están en el área de cartas viendo que comprar para sus decks de Yugioh
+      Ralix 'Sale, ya saben con que lo van a mejorar '(éxtasis)
+      Multitud 'andamos viendo están caras'(alegría)
+      Ralix 'con mi deck no me va a ganar '(éxtasis)
+      Multitud 'acabando vamos a comer o que?'(alegría)
+      menú  (aprobación)
+    Acto : comida
+      Ralix 'vamos por tortas?'(alegría)
+      Multitud 'venden maruchan'(alegría)
+      Ralix 'va los espero en el último piso '(alegría)
+      Multitud 'ahorita ate alcanzamos '(alegría)
+      Narrador 'Ralix fue por su torta y comenzó a caminar por la plaza'
+      Ralix 'vamos a ver qué más cartas hay para mi deck'
+      Ralix 'Tengo 5 minutos para ver qué encuentro.
+es curioso llevo oliendo un dulce perfume desde hace unos minutos.
+bueno a seguir revisando '
+    Acto : retas de videojuegos peleas
+      Ralix 'ven les dije que estaría bueno '
+      Multitud 'Cámara vamos a las retas del marvel'
+      Ralix 'va empiecen'
+
+
+
+Created by Trama de la Historia and you

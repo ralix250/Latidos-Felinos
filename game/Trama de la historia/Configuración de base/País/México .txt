@@ -1,0 +1,7 @@
+---- México  ----
+Tipo de Base : País
+etiqueta : Latidos_Felinos
+Nombre : México 
+Detalles (Sección de notas) : País donde viven los protagonistas
+
+
