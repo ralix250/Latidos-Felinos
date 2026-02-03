@@ -19,7 +19,7 @@ define config.name = _("Latidos Felinos")  # Define el nombre del juego, marcado
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para ocultar el título.
 
-define gui.show_name = True  # Controla la visibilidad del título en el menú principal (True=visible, False=oculto)
+define gui.show_name = False  # Controla la visibilidad del título en el menú principal (True=visible, False=oculto)
 
 
 ## Versión del juego.
@@ -62,7 +62,7 @@ define config.has_voice = True  # Habilita el canal de voces/diálogos doblados 
 ## el menú principal. Este archivo seguirá sonando en el juego hasta que sea
 ## detenido o se reproduzca otro archivo.
 
-# define config.main_menu_music = "main-menu-theme.ogg"  # Música del menú principal (comentado, sin archivo asignado)
+define config.main_menu_music = "ambiente/Menu-Principal-Finding - Nat Keefe.mp3"  # Música del menú principal (comentado, sin archivo asignado)
 
 
 ## Transiciones ################################################################

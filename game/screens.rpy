@@ -424,20 +424,75 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 # Define la pantalla del menú principal
+# Transform para animación de hover (rebote sutil)
+transform btn_hover_anim:
+    on hover:
+        zoom 1.05
+        linear 0.15 yoffset -10  # sube un poquito
+        linear 0.15 yoffset 0     # baja suave
+        repeat  # opcional: si quieres que siga rebotando mientras hover
+    on idle:
+        linear 0.2 zoom 1.0 yoffset 0  # vuelve normal suave
+
+
 screen main_menu():
+    tag menu
 
-    ## Esto asegura que cualquier otra pantalla de menu es remplazada.
-    tag menu                                                # Etiqueta que reemplaza otros menús
+    add gui.main_menu_background  # tu fondo
 
-    add gui.main_menu_background                            # Añade la imagen de fondo del menú principal
+    # Centramos todo el grid en la pantalla
+    grid 2 3:  # 2 columnas, 3 filas (6 botones)
+        xalign 0.5
+        yalign 0.85
+        xspacing 60   # espacio horizontal entre botones
+        yspacing 30   # espacio vertical entre filas
 
-    ## Este marco vacío oscurece el menu principal.
-    frame:
-        style "main_menu_frame"                              # Aplica estilo de marco del menú principal
+        # Fila 1
+        imagebutton:
+            idle "gui/menu/btn_jugar.png"
+            hover "gui/menu/btn_jugar_hover.png"
+            hovered [
+                Play("sound", "audio/efectos/Cat Purr.mp3", fadeout=0.5)
+            ]
+            action Start()
+            at btn_hover_anim
 
-    ## La sentencia 'use' incluye otra pantalla dentro de esta. El contenido
-    ## real del menú principal está en la pantalla de navegación.
-    use navigation                                          # Incluye la pantalla de navegación
+        imagebutton:
+            idle "gui/menu/btn_cargar.png"
+            hover "gui/menu/btn_cargar_hover.png"
+            hover_sound "audio/efectos/Cat Purr.mp3"
+            action ShowMenu("load")
+            at btn_hover_anim
+
+        # Fila 2
+        imagebutton:
+            idle "gui/menu/btn_opciones.png"
+            hover "gui/menu/btn_opciones_hover.png"
+            hover_sound "audio/efectos/Cat Purr.mp3"
+            action ShowMenu("preferences")
+            at btn_hover_anim
+
+        imagebutton:
+            idle "gui/menu/btn_acerca_de.png"
+            hover "gui/menu/btn_acerca_de_hover.png"
+            hover_sound "audio/efectos/Cat Purr.mp3"
+            action ShowMenu("about")
+            at btn_hover_anim
+
+        # Fila 3
+        imagebutton:
+            idle "gui/menu/btn_ayuda.png"
+            hover "gui/menu/btn_ayuda_hover.png"
+            hover_sound "audio/efectos/Cat Purr.mp3"
+            action ShowMenu("help")
+            at btn_hover_anim
+
+        imagebutton:
+            idle "gui/menu/btn_salir.png"
+            hover "gui/menu/btn_salir_hover.png"
+            hover_sound "audio/efectos/Cat Purr.mp3"
+            action Quit(confirm=False)
+            at btn_hover_anim
 
     # Si está configurado para mostrar el nombre del juego
     if gui.show_name:

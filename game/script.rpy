@@ -1,6 +1,7 @@
 ﻿# Definición de la animación de la huella (se mueve de izq a der en 3 segundos y repite)
 image paw_anim:
     "images/loading/loading_paw.png" with Dissolve(0.2)  # aparición suave
+    zoom 0.8
     xalign 0.2 yalign 0.75
     block:
         linear 1.5 xalign 0.3 yalign 0.70   # sube al centro
