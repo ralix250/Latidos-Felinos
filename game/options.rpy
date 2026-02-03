@@ -24,7 +24,7 @@ define gui.show_name = False  # Controla la visibilidad del título en el menú 
 
 ## Versión del juego.
 
-define config.version = "1.0"  # Establece el número de versión del juego para identificación y control de cambios
+define config.version = "1.1.0"  # Establece el número de versión del juego para identificación y control de cambios
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
