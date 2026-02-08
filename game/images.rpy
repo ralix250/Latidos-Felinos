@@ -1,7 +1,7 @@
 ############################## Imagenes Personajes #############################
 
-image Ralix = "images/personajes/ralix.png"
-image Zuky  = "images/personajes/zuky.png"
+image Ralix = Transform("images/personajes/ralix.png", xpos = 0.07, ypos = 0.97, zoom = 0.6)
+image Zuky  = Transform("images/personajes/zuky.png",  xpos = 0.93, ypos = 0.97, zoom = 0.5)
 
 ############################## Imagenes Background #############################
 

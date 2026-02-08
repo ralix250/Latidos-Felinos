@@ -1333,37 +1333,40 @@ style skip_triangle:
 ## https://www.renpy.org/doc/html/screen_special.html#notify-screen
 
 screen notify(message):
-
-    zorder 100
+    zorder 100  # siempre encima de todo
     style_prefix "notify"
 
-    frame at notify_appear:
-        text "[message!tq]"
+    # Frame centrado en la pantalla
+    frame:
+        xalign 0.5          # ¡centro horizontal!
+        yalign 0.5          # ¡centro vertical! (o 0.4 si quieres un poquito más arriba)
+        xysize (500, 120)   # tamaño cómodo para móviles y PC
+        padding (30, 20)
 
-    timer 3.25 action Hide('notify')
+        text "[message!tq]":
+            xalign 0.5
+            yalign 0.5
+            size 36
+            color "#ffffff"
+            outlines [(4, "#000000", 0, 0)]  # borde negro para legibilidad
 
+    # Desaparece sola después de 3 segundos
+    timer 3.0 action Hide('notify')
 
+# Transform para que aparezca y desaparezca suave
 transform notify_appear:
     on show:
         alpha 0
-        linear .25 alpha 1.0
+        zoom 0.9
+        linear 0.3 alpha 1.0 zoom 1.0
     on hide:
-        linear .5 alpha 0.0
-
-
-style notify_frame is empty
-style notify_text is gui_text
+        linear 0.4 alpha 0 zoom 0.9
 
 style notify_frame:
-    ypos gui.notify_ypos
-
-    background Frame("gui/notify.png", gui.notify_frame_borders, tile=gui.frame_tile)
-    padding gui.notify_frame_borders.padding
-
-style notify_text:
-    properties gui.text_properties("notify")
-
-
+    background "gui/notify_bg.png"  # tu imagen personalizada
+    padding (40, 30, 40, 30)        # espacio interno para que el texto no toque los bordes
+    xalign 0.5
+    yalign 0.5
 ## Pantalla NVL ################################################################
 ##
 ## Esta pantalla se usa para el diálogo y los menús en modo NVL.
