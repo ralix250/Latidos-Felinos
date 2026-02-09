@@ -1,4 +1,5 @@
 ---- Zuky ----
+Clasificación de personajes : Personaje principal
 etiqueta : LF_Principal, Latidos_Felinos
 Detalles adicionales : Amante de la música Rock, anime y Jpop
 Rol en la historia : Personaje principal, amiga de Ralix posterior novia y esposa
@@ -14,5 +15,8 @@ Crianza : Amorosa. Porque Familia
 Hábitos : Escuchar rock, tocar la guitarra, escuchar Jpop
 Fortalezas : Resiliencia, Calma, Amable con las personas
 Debilidades : Miedo a expresarse
+
+** Configuración Histórica **
+Encuentro : En una visita a la FrikyPlaza junto con sus amigos se hablo de un acontecimiento cerca de sus casas lo cual provocó la primera platica. Vieron lo que pasó por la casa, nunca pensé que lo pasarán incluso por la radio
 
 

@@ -1,4 +1,5 @@
 ---- Ralix ----
+Clasificación de personajes : Personaje principal
 etiqueta : LF_Principal, Latidos_Felinos
 Detalles adicionales : Programador amante de TCG
 Rol en la historia : personaje principal, amigo de Zuky y posterior novio y esposo 
@@ -15,5 +16,8 @@ Reputación en sus alrededores : Tranquilo
 Hábitos : Estudio, Comer a gran volumen, 
 Fortalezas : Resiliencia, Paciencia, Compromiso con su aprendizaje 
 Debilidades : Ser muy noble, Falta de límites 
+
+** Configuración Histórica **
+Encuentro : En una visita a la FrikyPlaza junto con sus amigos se hablo de un acontecimiento cerca de sus casas lo cual provocó la primera platica. Hablan de la marcha, fue una gran sorpresa, cerraron todo por dónde vivo
 
 

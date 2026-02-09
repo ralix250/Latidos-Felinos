@@ -1,0 +1,15 @@
+-- Diagrama principal --
+- Relaciones de carácter - 
+Ralix <-()-> Zuky
+Familia Ralix <-()-> Ralix
+Zuky <-()-> Mamá Zuky
+Amigos Ralix <-()-> Ralix
+Zuky <-()-> Amigas Zuky
+
+-- Diagrama principal --
+- Relaciones de carácter - 
+Ralix <-()-> Zuky
+Familia Ralix <-()-> Ralix
+Zuky <-()-> Mamá Zuky
+Amigos Ralix <-()-> Ralix
+Zuky <-()-> Amigas Zuky

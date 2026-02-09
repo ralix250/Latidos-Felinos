@@ -1405,6 +1405,11 @@ screen nvl(dialogue, items=None):
 
     add SideImage() xalign 0.0 yalign 1.0
 
+# Estilo custom para narrador 
+style narrator_text is say_dialogue:
+    color "#63b5fd"                   # azul claro que querías
+    size 32                             # opcional
+    outlines [(3, "#000000", 0, 0)]   # borde negro
 
 screen nvl_dialogue(dialogue):
 

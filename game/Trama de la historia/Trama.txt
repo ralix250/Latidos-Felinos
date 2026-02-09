@@ -1,89 +1,492 @@
 ---- Trama ----
-Total : 453 palabras, Escena : 36 palabras, Acto : 72 palabras, Diálogo : 345 palabras
+Total : 3665 palabras, Escena : 117 palabras, Acto : 264 palabras, Diálogo : 3284 palabras
 
 -- Apertura --
 - Día que se conocen -
-Total : 319 palabras, Escena : 32 palabras, Acto : 49 palabras, Diálogo : 238 palabras
+Total : 637 palabras, Escena : 20 palabras, Acto : 87 palabras, Diálogo : 530 palabras
+Idea : Menú: 
+Ralix
+Zuky
 Sumario : plaza de videojuegos 
 Falta de economía 
- Total : 150 palabras, Escena : 2 palabras, Acto : 35 palabras, Diálogo : 113 palabras
+ Total : 225 palabras, Escena : 4 palabras, Acto : 21 palabras, Diálogo : 200 palabras
  Notas : presentación de los personajes
  Lugar : Casa
  Zona horaria : Amanecer
  Clima : Cielos soleados
-  Escena : Ralix despierta
-    Acto : Preparación para ir a la FrikyPlaza junto con sus amigos y jugar videojuegos 
-      Ralix 'vamos a limpiar rápido, tengo que llegar con los youu'(alegría)
-      Ralix 'y a quedó la cama, vamos por la limpieza personal'(alegría)
-      Narrador 'mientras el realizaba su aseo personal, una dulce joven estaba preparándose para ir con sus amigas a disfrutar del dia'
-      Ralix 'Bueno pues ya me voy'(alegría)
-      Multitud 'Nos vemos chaparrito te cuidas'
+ Diagrama de correlación : 
+  Escena : Casa de Ralix 
+    Acto : Ralix despierta y comienza con los preparativos para ir con sus amigos a la frikyplaza
+      Ralix 'vamos a limpiar rápido, tengo que llegar con los youuˋs'(alegría)
+      Ralix 'ya quedó la cama, empezamos con el desayuno y el aseo personal'(alegría)
+      Narrador 'Ralix desayuna en familia y platican mientras comen'
+      Ralix 'Bueno pues ya me voy papis, nos vemos por la tarde'(alegría)
+      Familia Ralix 'Nos vemos chaparrito te cuidas'(alegría)
       Ralix 'Hasta al ratito papis, los amo 😘'(alegría)
       Narrador 'comienza el viaje mientras recuerda lo que le costó regresar a su casa '
-    Acto : Mientras escucha musica en el transporte recuerda lo que paso el día anterior para llegar a casa después de su escuela
-      Ralix '3 horas esperando en el metrobus '(vigilancia)
-      Ralix 'que bueno que después de tanto logrará subir pero bajar tan rapido'(vigilancia)
-      Ralix 'salió bastante caro el viaje '(vigilancia)
-      Narrador 'Después de todo lo que estuvo repasando pensó que todo fue mentira, la manifestación que mencionaron no'
+    Acto : Menú: Escuchar radio?
+      Narrador 'Ralix comienza a buscar en las estaciones de radio que recibe en su celular'
+      Ralix 'Super veamos que dicen las noticias'(alegría)
+      Narrador 'El locutor de radio comenta que en los dìas pasados se presento una marcha por temas políticos cerca de su casa y que espanto a muchas personas durante ese dìa'
+      Ralix 'Estos vatos por su culpa tuve que esperar 3 horas el metrobus y al final el taxi salio muy caro'(molestia)
+      Narrador 'Durante el viaje al metro termino escuchando todas las llamadas donde mucha gente estaba espantada pero pareciera que nada fue real.
+      La histeria colectiva es algo muy fácil de extender'
+    Acto : Menú: Escuchar musica?
+      Ralix 'Muy bien vamos a escuchar buenas canciones'(alegría)
+      Narrador 'Durante todo el viaje escucho openings de anime. Todo esto antes de que fuera popular'
+      Ralix 'Que buenas canciones, ojalá un dìa la música sea mas conocida'
 
 Sumario : casa
- Total : 169 palabras, Escena : 30 palabras, Acto : 14 palabras, Diálogo : 125 palabras
- Lugar : casa
+ Total : 412 palabras, Escena : 16 palabras, Acto : 66 palabras, Diálogo : 330 palabras
+ Lugar : Casa
  Zona horaria : Mañana
  Clima : Cielos soleados
-  Escena : Zuky se levanta de la cama y comienza su rutina matutina 
-    Acto : Preparación para ir con sus amigas
-      Zuky 'hoy toca cita con las chavas'(calma)
-      Zuky 'vamos a dejar limpio por qué el camino es largo'
-      menú  (aprobación)
-  Escena : veamos que conviene más metro o combi
-    Acto : toma el metro 
-      Zuky 'vamos por el metro es más barato'(calma)
-      Zuky 'Solo recordar lo que paso ayer me pone de nervios'(miedo)
-      Zuky 'bueno ya estoy en el metro a escuchar música en lo que llegó al lugar '(calma)
-      Narrador 'viaje en metro'
-    Acto : toma la combi
+ Diagrama de correlación : 
+  Escena : Casa Zuky
+    Acto : Zuky despierta y se prepara para ir con sus amigas a una salida de chicas
+      Zuky 'Super, hoy toca día de chicas'(alegría)
+    Acto : Menú: Desayunar?
+      Zuky 'Vamos a ver que hay en el refri, de paso le preparo algo a mi mamá'(alegría)
+      Narrador 'Zuky comienza a prepar el desayuno y al finalizar despierta a su mamá'
+      Zuky 'Vente má ya esta el desayuno '(alegría)
+      Mamá Zuky 'Gracias Osito de peluche'(éxtasis)
+      Zuky 'Denada má provecho'(alegría)
+      Narrador 'Mientras desayunan hablan de una marcha relacionada con actos políticos la cual provoco miedo en los alrededores'
+      Zuky 'No tienes de que preocuparte, déjame hablo con mis amigas para que me digan como esta la situaciòn por sus casas'
+    Acto : Menú: Mensaje a amigas?
+      Narrador 'Zuky envía varios mensajes para ponerse deacuerdo con sus amigas para ver como se encuentran luego de haber pasado algunos dìas de una marcha relacionada con actos políticos la cual provoco miedo en los alrededores'
+      Zuky 'Ufff, si que se fueron complicados los dìas pasados pero parece que ya se soluciono todo, me iré con cuidado'(ansioso)
+      Mamá Zuky 'Osito de peluche vamos a comer, ya esta el desayuno'(alegría)
+      Zuky 'Me gano mi mamá a preparar el desayuno, bueno vamos a comer'(alegría)
+      Narrador 'Ambas desayunan y platican sobre lo acontecido en dìas pasados, al final se sienten tranquilas al ver que todo esta en calma por los alrededores, esto gracias a la platica de Zuky con sus amigas'
+  Escena : Ruta de transporte
+    Acto : Desayunar?
+Tomo un poco màs de tiempo del esperado el desayuno por lo cual tiene que usar el metro
+      Zuky 'Bueno por el metro, es más rapido, me hubiera gustado ver como estaban las cosas por aca'(calma)
+      Zuky 'Solo recordar lo que paso me pone de nervios'(miedo)
+      Zuky 'Tranquila....
+Bueno andando '(calma)
+      Narrador 'Al llegar al metro se pone sus audífonos y disfruta del viaje hasta que llega con sus amigas'
+    Acto : Mensaje a amigas?
+Al finalizar el desayuno toma la combi que es más relajado el viaje y de esa forma validar como estan los alrededores
       Zuky 'vamos por la combi, espero no se tarde'(calma)
-      Zuky 'después de lo de ayer no pensé que se pusiera tan feo'(miedo)
-      Multitud 'Sube a la combi'
+      Narrador 'Sube a la combi, al tomar asiento se pone sus audifonos para disfrutar el viaje y ver las casas'
       Zuky 'pues llevo algunos minutos y no veo destrozos como decían en la radio'(calma)
   Escena : Zuky llegó a la estación donde estarían sus amigas esperándola 
     Acto : saludos
-      Multitud 'ya llegó Zuky'(alegría)
+      Amigas Zuky 'ya llegó Zuky'(alegría)
       Zuky 'hola que tal ¿Cómo están?'(alegría)
-      Multitud 'Bien, no nos pasó nada '(alegría)
-      Zuky 'estuvieron feas las noticias'(alegría)
-      Narrador 'entre ellas iban platicando y alegrandose de estar juntas y divirtiéndose en lo que llegabna. ala FrikyPlaza '
+      Amigas Zuky 'Bien, disfrutando del momento, vengan vamos a dar la vuelta'(alegría)
+      Zuky '¿A donde vamos?'(alegría)
+      Narrador 'Comienzan a caminar y se ponen deacuerdo a ir a la FrikyPlaza, para comer ramen y disfrutar de los productos que venden'
 
 
 -- Encuentro --
 - Ambos protagonistas llegan a la FrikyPlaza  -
-Total : 134 palabras, Escena : 4 palabras, Acto : 23 palabras, Diálogo : 107 palabras
-Sumario : Ambos protagonistas llegan a pisos diferentes y en horarios diferentes 
-cada quien llega con sus amigos y siguen divirtiendoae
+Total : 506 palabras, Escena : 29 palabras, Acto : 35 palabras, Diálogo : 442 palabras
+Sumario : Diversión en la Frikyplaza
+Alegres
 feliz
- Total : 134 palabras, Escena : 4 palabras, Acto : 23 palabras, Diálogo : 107 palabras
-  Escena : llegada de los youu
-    Acto : los amigos de ralix están en el área de cartas viendo que comprar para sus decks de Yugioh
-      Ralix 'Sale, ya saben con que lo van a mejorar '(éxtasis)
-      Multitud 'andamos viendo están caras'(alegría)
-      Ralix 'con mi deck no me va a ganar '(éxtasis)
-      Multitud 'acabando vamos a comer o que?'(alegría)
-      menú  (aprobación)
-    Acto : comida
-      Ralix 'vamos por tortas?'(alegría)
-      Multitud 'venden maruchan'(alegría)
-      Ralix 'va los espero en el último piso '(alegría)
-      Multitud 'ahorita ate alcanzamos '(alegría)
-      Narrador 'Ralix fue por su torta y comenzó a caminar por la plaza'
-      Ralix 'vamos a ver qué más cartas hay para mi deck'
-      Ralix 'Tengo 5 minutos para ver qué encuentro.
-es curioso llevo oliendo un dulce perfume desde hace unos minutos.
-bueno a seguir revisando '
-    Acto : retas de videojuegos peleas
-      Ralix 'ven les dije que estaría bueno '
-      Multitud 'Cámara vamos a las retas del marvel'
-      Ralix 'va empiecen'
+ Total : 230 palabras, Escena : 6 palabras, Acto : 28 palabras, Diálogo : 196 palabras
+ Notas : Ruta Ralix
+ Lugar : Frikiplaza
+ Zona horaria : Mediodía
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Reunión con amigos
+    Acto : Ralix y amigos llegan a la entrada de la frikyplaza
+      Ralix 'Muy bien, ya estamos todos, que tal les fue el día de la marcha?'(éxtasis)
+      Amigos Ralix 'Todo en calma, por nuestras casas no se presentaron problemas'(alegría)
+      Ralix 'Pues no se diga más vamos por las cartas'(éxtasis)
+      Narrador 'Durante un tiempo estuvieron revisando cartas para mejorar su deck y como buenos carpeteros encontraron lo que necesitaban'(alegría)
+      Ralix 'Oigan, quieren ir a comer o vamos a dar la vuelta?'(alegría)
+    Acto : Menú: Ir a comer?
+      Ralix '¿Que les parecen unas tortas? en el último piso venden'(alegría)
+      Amigos Ralix 'A mi me gustaría una maruchan
+Yo quisiera unas quesadillas'(alegría)
+      Ralix '¿Les parece bien si voy hasta arriba y ahorita les mando mensaje si encuentro maruchan?'(alegría)
+      Amigos Ralix 'Va nos avisas'(alegría)
+    Acto : Menú: Explorar edificio?
+      Amigos Ralix 'En lo que estabamos revisando carpetas dicen que hay torneo de peleas vamos y ahorita vamos a comer'(alegría)
+      Ralix 'Ando muy oxidado en eso pero me gusta la idea'(alegría)
+      Narrador 'Durante unos minutos estuvieron jugando hasta que pagaron para entrar al torneo'
+      Ralix 'En un momento regreso voy a comprar algo, unas papas o algo para botanear'(interés)
+  Escena : Caminando por comida
+    Acto : Al ir a comprar botana Ralix noto un aroma muy dulce
+      Narrador 'En ese momento Ralix comenzó a olfatear un aroma muy dulce, algo que no era comida pero le intereso mucho'
+      Ralix 'Qué dulce perfume ¿Me pregunto de quien sería?'(interés)
+      Ralix 'Bueno si lo vuelvo a oler estare al pendiente mientras vamos por mis papitas'(interés)
+
+Sumario : Explorando el edificio
+Alegres
+Feliz
+ Total : 121 palabras, Escena : 10 palabras, Acto : 6 palabras, Diálogo : 105 palabras
+ Notas : Ruta Zuky
+ Lugar : Frikyplaza
+ Zona horaria : Mediodía
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Al estar en la frikyplaza deciden que actividad quieren hacer
+    Acto : Menú: Comprar animes?
+      Zuky 'En el segundo piso estan los animes vamos'(alegría)
+      Amigas Zuky 'Si vamos, acá tengo la lista de los que me faltan'(alegría)
+      Narrador 'La cantidad de gente que había en ese momento fue algo que se esperaban pero aun así no estaban felices por haber mucha concurrencia'
+      Amigas Zuky 'Oigan que tal si vamos a comer, ya me muero de hambre.
+Yo tambien.
+Secundo la moción'(interés)
+      Zuky 'Vamos a donde estan los juegos ahí esta el ramen'(alegría)
+      Narrador 'Cada una pidio su platillo favorito en el restaurante que se encontraba junto donde se estaba haciendo el torneo de peleas'
+      Narrador 'Durante la espera comenzaron a platicar y nuevamente salio la platica de la marcha'
+    Acto : Menú: Comprar ramen?
+
+Sumario : Interacción entre Ralix y Zuky por primera vez
+Temerosos
+Confianza
+ Total : 155 palabras, Escena : 13 palabras, Acto : 1 palabras, Diálogo : 141 palabras
+ Notas : En espera de comida
+ Lugar : Frikyplaza
+ Zona horaria : Mediodía
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Mientras Zuky platicaba con sus amigas, Ralix estaba al lado viendo que comprar
+    Acto : Escuchar
+      Narrador 'Sin percatarse uno del otro, ambos estaban tan cerca que el inicio de algo glorioso comenzaría por la curiosidad'
+      Ralix 'Hola buenas tardes, perdonen que las interrumpa pero ¿Tambien pasarón por lo de la marcha?'(interés)
+      Amigas Zuky 'Si, fue algo que nos espanto al inicio pero ya sabes nada de que preocuparse'(interés)
+      Zuky 'Cuando salí de la uni y vi negocios cerrados me espante un poco, esperaba que mi mamá llegara con bien'(interés)
+      Ralix 'Sabes me paso algo parecido, yo igual estaba en la universidad y no pasaba mi transporte, espere por 3 horas màs o menos'(interés)
+      Narrador 'Ambos al momento de hablarse el uno al otro sintieron algo particular pero no prestaban atenciòn.
+Conforme fueron platicando llegaron al punto en que intercambiaron números de telefono y correos para continuar con la charla'
+      Narrador 'En ese momento el torneo de juegos y el ramen pasaron a segundo plano.'
+
+
+-- 1ra Cita --
+- Después de su primer encuentro, tienen una cita en el Zocalo -
+Total : 608 palabras, Escena : 8 palabras, Acto : 7 palabras, Diálogo : 593 palabras
+Sumario : ¿Comó sera la cita?
+Le gustare a Zuky
+Ralix estará loco?
+Ansiedad 
+Nervios de primera Cita
+Día relajado pero muy productivo para la relaciòn
+De estar ansiosos a complaciencia y alegría 
+ Total : 608 palabras, Escena : 8 palabras, Acto : 7 palabras, Diálogo : 593 palabras
+ Notas : Primera cita oficial
+ Lugar : Metro, Zocalo, Restaurante
+ Puntos relacionados : Metro
+ Zona horaria : Mediodía
+ Clima : Cielos nublados
+ Diagrama de correlación : 
+  Escena : Pantalla en Negro.
+Menú Zuky
+Menú Ralix
+    Acto : Menú Zuky
+      Zuky 'Llego al fin el día es el momento en el que lo volveré a ver después de tanto tiempo'(ansioso)
+      Zuky '¿Sera realmente como en los mensajes?
+En el primer encuentro me pareció un buen chico, pero no se, aun no se....'(ansioso)
+      Narrador 'Durante un tiempo estuvieron hablando por mensajes y en cada uno de ellos se conocieron.'
+      Narrador 'Supieron las vivencias del otro y sus momentos màs dolorosos por lo cual tenian empatía y aun que no lo sabían comenzaba el amor a florecer'
+      Zuky 'Bueno ya llegue, espero que no tarde, me mando un mensaje hace 10 minutos'(ansioso)
+      Zuky 'Han pasado 5, sino llega en máximo 10 minutos me voy'(anticipación)
+      Narrador 'En ese momento se encuentra de espaldas mientras comienza a escuchar musica '
+    Acto : Menú Ralix
+      Ralix 'Hay que cosas, que buena desvelada.
+Mucho trabajo pero bueno llego el día
+Es momento de ver que pasa, ojalá no lo arruine'(calma)
+      Ralix 'Vamos no te rindas, en las conversaciones has sido honesto, no lo arruines no tengas miedo'(ansioso)
+      Ralix 'Vamos a terminar de trabajar, dejamos arreglado y salimos corriendo'(calma)
+      Narrador 'El miedo a dar el siguiente paso es algo que no se puede evitar pero siempre se debe enfrentar.
+Es momento de dar el salto.... un salto de fe al corazón de la persona que quieres'
+      Ralix 'ufff corre, corre vamos 5 minutos tarde, detesto llegar tarde'(ansioso)
+      Ralix 'Envie mensaje hace 10, espero no se moleste mucho'(ansioso)
+      Ralix 'Condenada combi haciendo base en cada esquina, bueno ya nomás a subir las escaleras'(anticipación)
+      Narrador 'Cuando sube escaleras ve a lo lejos a una chica con la ropa que le había descrito Zuky'
+      Ralix 'Se ve mucho màs hermosa que la última vez'(adoración)
+      Ralix 'Vamos ten confianza, demos un pequeño salto de fe'(adoración)
+      Zuky 'Buenas tardes, que bien que ya estás acá.
+(Hoy se ve más guapo que la última vez)'(sorpresa)
+      Ralix 'Un placer hermosa dama, disculpame por llegar tarde,¿ vamos a comer que te parece?'(optimismo)
+      Ralix '(Hay no tengo mucho, bueno veamos que podemos comprar)'(ansioso)
+      Zuky 'Claro, ¿A donde vamos?'(alegría)
+      Ralix 'Te daré una sorpresa, ven acompañame.'(alegría)
+      Narrador 'Ambos caminarón hacia el metro y comenzarón a relatar su mañana'
+  Escena : Zocalo
+    Acto : Rumbo al restaurante
+      Ralix '(uffff, a donde vamos, a donde vamos)'(ansioso)
+      Ralix 'ven conozco un lugar bueno y calmado al que podemos ir'(alegría)
+      Zuky 'Claro.'
+      Narrador 'El comer un cuernito, un helado y una buena bebida fria es algo muy suculento'
+      Ralix 'Estuvo llenador, sabes me gusto el sabor'(alegría)
+      Zuky 'Tambien me gusto'(alegría)
+      Zuky '(Debí apoyarlo pero no me dejo pagar, que dulce es)'(alegría)
+      Narrador 'Nota: Antes hubo una época donde no había problema que el hombre pagará y que la mujer si aceptaba una cita economica'
+      Narrador 'Continuamos con la historía '
+      Ralix '¿Te propongo que vayamos al Zocalo?, hay un evento musical'(alegría)
+      Ralix '(Se ve tan linda cuando sonrie, espero en verdad que no le pareciera mal el lugar)'(alegría)
+      Zuky 'Si vamos, escuche que seria con música de Michael Jakson'(alegría)
+      Narrador 'Mientras caminaban iban platicando locuras que imaginaban, Ralix hablando de anime y yugi, mientras que Zuky solo asentía, aun que interesada en el tema no sabia sobre el juego TCG'
+      Ralix 'Mira ya andan bailando '(alegría)
+      Zuky 'Disfrutemos del momento'(alegría)
+      Narrador 'Horas más tardé.
+Cuando termino la cita las risas no faltaron, los momentos de alegría no terminaban pero ambos tenian que ir a su respectivo hogar.'
+      Ralix 'Sabes me parecio un lindo día gracias por ser una hermosa joya.
+Me pregunto ¿Qué tipo de joyita eres?'(alegría)
+      Zuky 'No lo se, tu dime'
+      Ralix 'Eres jade en mis manos: suave al tacto, pero firme en el alma. Tu verde esperanza no se desvanece cuando la noche cae, ni se apaga bajo el sol de la mañana. En tu brillo encuentro fuerza, en tu luz camino, y en tu amor… un futuro que ya no temo, sino que abrazo.'(amor)
+
+
+-- Noviazgo --
+- Ha pasado el tiempo y de la amistad ha nacido el amor -
+Total : 188 palabras, Escena : 8 palabras, Acto : 28 palabras, Diálogo : 152 palabras
+Sumario : Última cita de amigos
+Ralix y Zuky
+Se besan y se vuelven novios
+ Total : 188 palabras, Escena : 8 palabras, Acto : 28 palabras, Diálogo : 152 palabras
+ Puntos relacionados : FrikyPlaza, Metro, Torre Latino
+ Zona horaria : Mediodía
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Rumbo al metro para dar un paso importante
+    Acto : Después de un tiempo plantando la semilla del amor es momento en que floresca con un beso
+      Zuky 'Hoy me dijo Ralix que me dará una gran sorpresa, me pregunto que será'(ansioso)
+      Zuky 'Bueno términos los deberes y vamos al metro para ver a ese muchachon'(ansioso)
+      Zuky 'Mensaje de las chicas?'(anticipación)
+      Amigas Zuky '¿Qué tal te ha ido?, ya no nos vemos como antes'(vigilancia)
+      Narrador 'Durante unos minutos se pusieron al corriente y todas '
+      Zuky 'Bueno chicas las dejare un rato, voy de salida'(ansioso)
+    Acto : Ralix nervioso por lo que hará no deja de sonreir
+      Ralix 'Repasemos el plan.
+Paso 1 alcanzarla en el metro
+Paso 2 ir a comer en la friky
+Paso 3 pasar por la torre latino y pasar a la alameda
+Ultimo paso abrazarla mirarla a los ojos y abrir mi corazón'(ansioso)
+      Ralix 'Vamos a desayunar antes y cumplamos el plan'(ansioso)
+      Narrador 'En su mente el imaginar el primer beso era algo que lo distraía mucho pero no dejaba de sonreir'
+      Ralix 'Nos vemos papis por la tarde bye'(alegría)
+      Familia Ralix 'nos vemos '(alegría)
+    Acto : Llegada
+      Ralix 'uff hoy si llegue temprano'(alegría)
+      Ralix 'escuchemos un poco de musica en lo que llega'
+
+
+-- Relación Novios --
+- Mostrar un poco de las risas que suceden cuando hay amor -
+Total : 279 palabras, Escena : 3 palabras, Acto : 13 palabras, Diálogo : 263 palabras
+Sumario : Una cita
+ Total : 279 palabras, Escena : 3 palabras, Acto : 13 palabras, Diálogo : 263 palabras
+ Lugar : Casa Zuky
+ Puntos relacionados : Cine
+ Zona horaria : Mediodía
+ Clima : Cielos nublados
+ Diagrama de correlación : 
+  Escena : Hermoso día nublado
+    Acto : Ralix llega a Casa de Zuky para ir al cine 
+      Narrador 'Se escucha el timbre de la puerta '
+      Zuky 'Oh me ganó ya llegó '(alegría)
+      Ralix 'Hola mi princesa. Qué gusto de verte de nuevo '(alegría)
+      Narrador 'El amor se sentía en cada momento de ese hermoso abrazo en el que estaban juntos '
+      Ralix 'Te parece si vamos al cine hay una buena promoción '(alegría)
+      Zuky 'Uy Claro que sí vamos por palomitas con quesito y mucha salsa '(alegría)
+      Ralix 'Lo que se te antoje mi amor. Bueno en camino '(alegría)
+      Narrador 'El disfrute de la película era único no había forma que no disfrutaran de la sensación cálida de sus manos al tocarse '
+      Narrador 'Cada momento lleno de paz y de alegría solamente eran superados por el siguiente '
+      Ralix 'Te gustaría que fuéramos a comer algo? '(confianza)
+      Zuky 'Qué te parece si vamos por mmmm'(pensativo)
+      Zuky 'Ay No lo sé tengo ganas de todo pero más de tus besos '(pensativo)
+      Ralix 'No se diga más al cliente lo que pida '(alegría)
+    Acto : Comida 
+      Narrador 'Después de ir al cine fueron a la sección de comida de la plaza disfrutaron rieron platicando y no pasó el momento en el que dejaran de mirarse el uno al otro simplemente permitían que cada momento fuera único '
+      Ralix 'Te gustaría que fuéramos a dar una vuelta '(alegría)
+      Zuky 'Por supuesto que sí vamos '(alegría)
+      Ralix 'El caminar tomados de la mano me vuelve muy feliz. Gracias por estar conmigo '(alegría)
+      Zuky 'Ay me apenas me encanta estar a tu lado '(alegría)
+      Ralix 'Como bien dicen el amor hace que uno pueda sentir el cielo '(amor)
+      Zuky 'Yo también te amo con todo mi corazón Yo también te amo con todo mi corazón '(amor)
+
+
+-- Propuesta --
+- Viaje a centro arqueologico -
+Total : 223 palabras, Escena : 14 palabras, Acto : 4 palabras, Diálogo : 205 palabras
+Sumario : Ralix propone matrimonio 
+ Total : 223 palabras, Escena : 14 palabras, Acto : 4 palabras, Diálogo : 205 palabras
+ Lugar : Teotihuacán 
+ Zona horaria : Mediodía
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Un viaje donde va la hermana de ralix y la pareja hacia Teotihuacán 
+    Acto : Subiendo la pirámide 
+      Ralix 'No sabes cómo te agradezco desde mi corazón que me hayas apoyado tanto Muchas gracias '(optimismo)
+      Hermana Ralix 'Estás bien loco y fue apresurado pero sabes que vas a contar conmigo siempre '(optimismo)
+      Ralix 'Bueno en cuanto termine de subir las escaleras ella le pediré matrimonio me grabas eh '(optimismo)
+      Hermana Ralix 'Sale me agrada la idea ya estoy preparada '(optimismo)
+      Zuky 'Qué tan larga la escalera Pero bueno ya llegamos '(amor)
+      Narrador 'En ese momento rallix tomó su mano la vio a los ojos y se comenzó a arrodillar '
+      Multitud 'Mira se está arrodillando de seguro le va a pedir matrimonio '(vigilancia)
+      Ralix 'Hemos vivido tanto juntos te conozco he querido estar contigo desde el primer momento que te vi Gracias por alegrarme la vida gracias por ser parte de mi vida Te amo y quiero que este amor continúe todo este tiempo '(amor)
+      Zuky 'Yo.... Yo.... '(amor)
+      Narrador 'En ese momento ralex saca de su bolsillo el anillo toma su mano con delicadeza y lo coloca '
+      Ralix 'Permíteme ser el hombre que estará contigo el resto de tu vida '(amor)
+      Zuky '💓💓💓💓'(amor)
+      Multitud 'Bravo sí se atrevió le dijo que sí '(optimismo)
+      Hermana Ralix 'Esto quedará grabado para siempre '(optimismo)
+      Ralix 'Gracias hermanita no sabes lo mucho que te agradezco todo lo que has hecho por mí '(amor)
+
+
+-- Boda --
+- Todo lo hermoso que es el inicio del matrimonio -
+Total : 104 palabras, Escena : 2 palabras, Acto : 8 palabras, Diálogo : 94 palabras
+Sumario : Preparativos para la boda 
+ Total : 104 palabras, Escena : 2 palabras, Acto : 8 palabras, Diálogo : 94 palabras
+ Lugar : Casa r
+Ralix 
+ Zona horaria : Tarde
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Preparativos 
+    Acto : Las familias comienzan los preparativos para la 
+      Narrador 'Ante las diferentes ideas terminaron de acuerdo todos juntos hicieron lo posible para que sus hijos sus hermanos pudieran tener de forma sencilla una boda muy amorosa '
+      Narrador 'Ha pasado mucho tiempo desde que se conocieron pero el apoyo de las familias ha sido grande de ambos lados siempre buscaron que su amor continuará '
+      Narrador 'Todo el tiempo de los preparativos de cierta forma fue corto pero aún así Nunca faltó el amor siempre estuvieron juntos el uno al lado del otro no perdieron de vista lo más importante el amor entre ellos '
+
+
+-- Matrimonio --
+- Las risas y las papitas no faltan, los tatos tampoco -
+Total : 761 palabras, Escena : 24 palabras, Acto : 67 palabras, Diálogo : 670 palabras
+Sumario : Días juntos
+ Total : 275 palabras, Escena : 10 palabras, Acto : 30 palabras, Diálogo : 235 palabras
+ Lugar : Trabajo de ralix 
+ Diagrama de correlación : 
+  Escena : Suki llegan al trabajo de Ralix para comer juntos 
+    Acto : Zuky espera fuera de la plaza al lado del trabajo de Ralix para comer 
+      Zuky 'Se me fue de volar el día Apenas pude prepararle algo Espero que le guste '(confianza)
+      Zuky 'Tenemos sandwichitos y un refresco '(confianza)
+      Zuky 'Es la primera vez que vengo a su trabajo '(confianza)
+      Narrador '5 minutos después ralix sale de su trabajo y se aproxima donde está Zuky'
+      Ralix 'Hola mi amor Muchas gracias por esperarme Disculpa la tardanza se alargó una junta '(amor)
+      Ralix 'En verdad gracias por venir me siento tan feliz de verdad te lo agradezco '(amor)
+      Zuky 'Discúlpame con los labores de la casa apenas pude preparar algo '(amor)
+      Ralix 'Eres una gran cocinera y no sabes cómo adoro tu comida '(amor)
+      Multitud 'Juntos se sientan a degustar los alimentos se miran a los ojos y se dicen hermosas palabras de amor el uno al otro '
+    Acto : Zuky espera dentro de la plaza al lado del trabajo de ralex para comer 
+      Zuky 'Me dijo que lo esperara aquí adentro veamos voy a buscar una mesita '(amor)
+      Ralix 'Hola mi princesa Qué bueno que ya llegaste te gustaría comer una ensalada o te gustaría una pizza? '(amor)
+      Narrador 'Dentro de esa plaza al ser muy concurrida había mucha gente Esperando poder comer helados Pizza había de todo un deleite para todos los paladares '
+      Zuky 'Se me antoja una ensalada y '(amor)
+      Ralix 'Me comentaron que había un lugar de hamburguesas yo creo que puedo pedir una y nos sentamos a las mesitas del centro '(amor)
+      Narrador 'Ambos obtuvieron su comida y disfrutaron el momento Zuky le contó su día y lo difícil que fue llegar usando el metro'
+
+Sumario : Salida a un cine lejano 
+ Total : 373 palabras, Escena : 7 palabras, Acto : 27 palabras, Diálogo : 339 palabras
+ Puntos relacionados : Cine, Metro
+ Zona horaria : Mañana
+ Clima : Llovizna
+ Diagrama de correlación : 
+  Escena : Día lluvioso esperando entrar al cine 
+    Acto : Al ser un día lluvioso la mejor opción fue un cine ambos esperaban ver una gran película 
+      Ralix 'Sí que estuvo muy complicado el camino en el metro '(aburrimiento)
+      Zuky 'Sí fue demasiado tedioso me estaban aplastando mucho '(aburrimiento)
+      Ralix 'No es cierto y que te prestaba era yo abrazar cerca de ti y ver tus dulces ojos '(confianza)
+      Zuky 'Ay mi amor qué tierno '(amor)
+      Ralix 'Mi dulce princesa Dame la mano sígueme '
+    Acto : Comida 
+      Zuky 'Podemos ir por comida? Mira está cerca'(anticipación)
+      Ralix 'Claro que sí mi princesa de hecho me recomendaron un lugar que vende ramen '(alegría)
+      Zuky 'Uy ese me gusta mucho '(alegría)
+      Ralix 'Andando no se diga más '(alegría)
+      Narrador 'Pronto fueron los dos a comer ramen mientras esperaban que la película comenzara '
+      Narrador 'El estar tomados de la mano permitía que sus corazones siguieran unidos '
+    Acto : Cine 
+      Ralix 'Vamos princesa el cine está en el último piso ya no tarda la película '(éxtasis)
+      Zuky 'Sí vamos '(éxtasis)
+      Ralix 'Qué te gustaría que compremos de comer? '(éxtasis)
+      Zuky 'Mis palomitas con con bastante salsa Unos nachos queso '(éxtasis)
+      Ralix 'Y para tomar princesa? '(éxtasis)
+      Zuky 'Cómprame un Ice '(éxtasis)
+      Ralix 'Lo que pida mi niña hermosa '(éxtasis)
+      Narrador 'Una vez pedido sus golosinas entraron al cine a disfrutar de esa hermosa película '
+      Narrador 'Desde su primer cita hasta el momento no han olvidado lo que es verse a los ojos al inicio y al final de cada película el saber que está en el uno para el otro es algo que no tiene precio '
+    Acto : Pasear Por la plaza 
+      Ralix 'Es más grande de lo que pensé esta Plaza '(asombro)
+      Zuky 'Mira hay un evento de adopción de gatos '(sorpresa)
+      Ralix 'Es cierto vamos la película de todos modos empezará por la tarde '(asombro)
+      Narrador 'En ese momento se acercaron al estante donde daban información y juntos fueron a ver a los gatitos '
+      Ralix 'Mira este se ve bonito todo negro '(alegría)
+      Zuky 'Te imaginas que algún día podamos tener un gatito de ese color '(alegría)
+      Ralix 'Cómo te gustaría que se llame? '(alegría)
+      Zuky 'No lo sé lo dejaría el destino '(alegría)
+      Narrador 'El disfrute y deleite de esos hermosos ronroneos hicieron que se les fuera muy rápido el tiempo que incluso olvidaron comer pero disquitarían su hambre en el cine '
+
+Sumario : Primer día de campo 
+ Total : 113 palabras, Escena : 7 palabras, Acto : 10 palabras, Diálogo : 96 palabras
+ Lugar : Alameda Oriente 
+ Puntos relacionados : Metro
+ Zona horaria : Mediodía
+ Clima : Cielos nublados
+ Diagrama de correlación : 
+  Escena : Caminata y diversión por el parque 
+    Acto : Llegó el momento de su primer día de campo 
+      Zuky 'Mira mi amor abajo de ese árbol hay una bonita sombra '(amor)
+      Ralix 'Claro vamos '(amor)
+      Narrador 'Ambos se prepararon para estar debajo del árbol sacaron su comida y comenzaron a comer mientras veían a los niños jugar '
+      Multitud 'Algo se apoderó de ellos como siempre nunca se han dejado de mirar a los ojos y en esa ventana que demuestra el alma de cada quien supieron que era momento de dar un paso más a su historia '
+      Ralix 'Es lindo ver a los niños jugar no lo creés? '(amor)
+      Zuky 'Sería muy lindo estar junto con ellos '(amor)
+
+
+-- Hermosa Sorpresa --
+- Los bebes siempre son algo bellisimo -
+Total : 179 palabras, Escena : 8 palabras, Acto : 6 palabras, Diálogo : 165 palabras
+Sumario : Zuky prepara una sorpresa 
+ Total : 179 palabras, Escena : 8 palabras, Acto : 6 palabras, Diálogo : 165 palabras
+ Lugar : Trabajo de Ralix
+ Zona horaria : Tarde
+ Clima : Cielos soleados
+ Diagrama de correlación : 
+  Escena : Zuky espera ralix afuera de la plaza 
+    Acto : Lágrimas de felicidad
+      Narrador 'Ha pasado tiempo desde el primer día de campo lo que no ha pasado es el amor que '
+      Zuky 'Ay qué nervios Tengo ansias '(ansioso)
+      Zuky 'También tengo hambre estos antojos '(ansioso)
+      Ralix 'Hola mi amor Muchas gracias Ya estoy acá '(amor)
+      Zuky 'Mi amor antes de que podamos comer quisiera contar algo '(sorpresa)
+      Ralix 'Claro que sí mi amor qué pasó? '(amor)
+      Zuky 'Me puedes pasar mi mochila por favor '(ansioso)
+      Narrador 'Rallix Al momento de pasársela y levantarla descubre un pequeño sobre debajo de su mochila '
+      Ralix 'Te pasa también tu sobre? '(amor)
+      Zuky 'Es tuyo lee lo que dice '(ansioso)
+      Narrador 'Con cada palabra la expresión de rallis cambia una felicidad inmensa y no pudo contener sus lágrimas será papá '
+    Acto : Sorpresa silenciosa 
+      Zuky 'Ay ay qué nervios '(ansioso)
+      Ralix 'Hola mi amor '(amor)
+      Zuky 'Sabes no puedo esperar necesito decírtelo '(ansioso)
+      Ralix 'Cuéntame qué pasó? '(amor)
+      Narrador 'Al decirle Zuky que estaban esperando a un pequeño bebé Rallix muy feliz pero sin palabras solamente se acercó la abrazó y fundieron su amor en un beso '
+
+
+-- Dulces Recuerdos --
+- Una vivencia tan linda que continua  -
+Total : 180 palabras, Escena : 1 palabras, Acto : 9 palabras, Diálogo : 170 palabras
+Sumario : El luchar por su familia 
+ Total : 180 palabras, Escena : 1 palabras, Acto : 9 palabras, Diálogo : 170 palabras
+ Lugar : Casa Zuky y Ralix 
+ Zona horaria : Noche
+ Clima : Llovizna
+ Diagrama de correlación : 
+  Escena : FINAL
+    Acto : Recuento de lo que ha pasado 
+      Narrador 'Una noche Ralix comenzó a escribir código porque era su pasión '
+      Ralix 'Ha pasado tiempo me he sentido muy feliz Y aunque en ocasiones estoy cansado ver este pequeño niño vale la pena '(calma)
+      Ralix 'Ver descansar a mi familia a mi dulce esposa y a mi pequeño bebé no tiene comparación '(calma)
+      Ralix 'Ha sido tan dulce cada momento al lado de los dos quién lo diría incluso tuvimos un gato '(calma)
+      Narrador 'Ralix después de tantos años quiso dejar un registro de lo que ha vivido y aunque ha sido pequeño hasta el momento quiere que sepas '
+      Narrador 'Que cada día de su vida ha sido una alegría infinita '
+      Ralix 'Gracias por acompañarme a mis locuras gracias por darme un gran regalo y ahora te pregunto '(amor)
+      Ralix 'Quisiera ser mi San Valentín nuevamente? '
+    Acto : Si
+      Ralix 'El amor que siempre te voy a tener no va a terminar jamás ni junto con nuestro hijo te amaremos toda la vida '(amor)
+    Acto : No
+      Ralix 'Y si te compro unas chetos Qué dices? '(amor)
+      Ralix 'Esos nunca fallan 💓💓'
 
 
 

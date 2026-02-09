@@ -1,30 +1,73 @@
-################################# Personajes ##################################
+########################### Personajes Principales ############################
 
 # Ralix - sprite y nombre a la IZQUIERDA
 define ralix = Character(
     "{b}Ralix{b}",
-    color="#000000",
-    what_color="#000000",
-    side_image = Transform("images/personajes/ralix.png", xzoom=0.4, yzoom=0.4),  # ajusta tamaño si es necesario
-    side_images = { "left": "images/personajes/ralix.png" },
-    namebox_xpos = 0.24,                          # nombre cerca del borde izquierdo
-    namebox_ypos = 0.08,                         # arriba-izquierda
-    what_xalign  = 0.45,                          # diálogo alineado a izquierda
-    what_yalign  = 0.35                            # centrado vertical en el textbox
+    color        = "#000000",
+    what_color   = "#000000",
+    side_image   = "Ralix base",
+    namebox_xpos = 0.24,
+    namebox_ypos = 0.08,
+    what_xalign  = 0.45,
+    what_yalign  = 0.35
 )
 
 # Zuky/Mitzuky - sprite y nombre a la DERECHA
-define zuky = Character(  # o zuky si lo llamas así
+define zuky = Character(
     "{b}Zuky{b}",
-    color="#7e8891",
-    what_color="#7e8891",
-    side_image = Transform("images/personajes/zuky.png", xzoom=0.4, yzoom=0.4),
-    side_images = { "right": "images/personajes/zuky.png" },
-    namebox_xpos=0.69,                         # nombre cerca del borde derecho
-    namebox_ypos=0.08,                         # arriba-derecha
-    what_xalign=0.64,                          # diálogo alineado a derecha
-    what_yalign=0.35                            # centrado vertical
+    color        = "#ffffff",
+    what_color   = "#acacac",  # o el color que uses para texto
+    side_image   = "Zuky base",
+    namebox_xpos = 0.68,
+    namebox_ypos = 0.08,
+    what_xalign  = 0.01,          # alineación perfecta a la derecha (más limpio)
+    what_xpos    = 0.25,           # empieza más a la izquierda para que quepa todo
+    what_xsize   = 0.45,          # ← ¡esto es clave! Limita el ancho del texto a 55% del textbox
+    what_yalign  = 0.43
 )
 
-# Personajes genéricos (sin sprite lateral)
-define narrator = Character(None, what_xalign=0.5)  # centrado para narración
+########################### Personajes secundarios ############################
+define ralix_fm = Character(
+    "{b}Familia Ralix{b}",
+    color        = "#000000",
+    what_color   = "#000000",
+    namebox_xpos = 0.24,
+    namebox_ypos = 0.08,
+    what_xalign  = 0.45,
+    what_yalign  = 0.35
+)
+
+define zuky_mama = Character(
+    "{b}Mamá Zuky{b}",
+    color        = "#ffffff",
+    what_color   = "#acacac",
+    namebox_xpos = 0.24,
+    namebox_ypos = 0.08,
+    what_xalign  = 0.45,
+    what_yalign  = 0.35
+)
+
+define zuky_friends = Character(
+    "{b}Amigas Zuky{b}",
+    color        = "#ffffff",
+    what_color   = "#acacac",
+    namebox_xpos = 0.24,
+    namebox_ypos = 0.08,
+    what_xalign  = 0.45,
+    what_yalign  = 0.35
+)
+
+########################### Personajes genéricos ############################
+transform narrator_fade:
+    alpha 0
+    linear 0.5 alpha 1.0
+
+define narrator = Character(
+    None,
+    what_xalign=0.5,
+    what_color="#63b5fd",
+    what_outlines=[(3, "#000000", 0, 0)],
+    what_size=32,
+    what_italic=True,               # opcional: itálica para pensamientos
+    what_atl = narrator_fade        # ← aplica ATL directamente al diálogo
+)
