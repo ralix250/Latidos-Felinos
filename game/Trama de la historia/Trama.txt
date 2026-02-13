@@ -1,5 +1,5 @@
 ---- Trama ----
-Total : 3665 palabras, Escena : 117 palabras, Acto : 264 palabras, Diálogo : 3284 palabras
+Total : 4210 palabras, Escena : 117 palabras, Acto : 268 palabras, Diálogo : 3825 palabras
 
 -- Apertura --
 - Día que se conocen -
@@ -30,7 +30,7 @@ Falta de economía
       Narrador 'El locutor de radio comenta que en los dìas pasados se presento una marcha por temas políticos cerca de su casa y que espanto a muchas personas durante ese dìa'
       Ralix 'Estos vatos por su culpa tuve que esperar 3 horas el metrobus y al final el taxi salio muy caro'(molestia)
       Narrador 'Durante el viaje al metro termino escuchando todas las llamadas donde mucha gente estaba espantada pero pareciera que nada fue real.
-      La histeria colectiva es algo muy fácil de extender'
+La histeria colectiva es algo muy fácil de extender'
     Acto : Menú: Escuchar musica?
       Ralix 'Muy bien vamos a escuchar buenas canciones'(alegría)
       Narrador 'Durante todo el viaje escucho openings de anime. Todo esto antes de que fuera popular'
@@ -49,7 +49,7 @@ Sumario : casa
       Zuky 'Vamos a ver que hay en el refri, de paso le preparo algo a mi mamá'(alegría)
       Narrador 'Zuky comienza a prepar el desayuno y al finalizar despierta a su mamá'
       Zuky 'Vente má ya esta el desayuno '(alegría)
-      Mamá Zuky 'Gracias Osito de peluche'(éxtasis)
+      Mamá Zuky 'Gracias Osito de peluche'(extasis)
       Zuky 'Denada má provecho'(alegría)
       Narrador 'Mientras desayunan hablan de una marcha relacionada con actos políticos la cual provoco miedo en los alrededores'
       Zuky 'No tienes de que preocuparte, déjame hablo con mis amigas para que me digan como esta la situaciòn por sus casas'
@@ -95,9 +95,9 @@ feliz
  Diagrama de correlación : 
   Escena : Reunión con amigos
     Acto : Ralix y amigos llegan a la entrada de la frikyplaza
-      Ralix 'Muy bien, ya estamos todos, que tal les fue el día de la marcha?'(éxtasis)
+      Ralix 'Muy bien, ya estamos todos, que tal les fue el día de la marcha?'(extasis)
       Amigos Ralix 'Todo en calma, por nuestras casas no se presentaron problemas'(alegría)
-      Ralix 'Pues no se diga más vamos por las cartas'(éxtasis)
+      Ralix 'Pues no se diga más vamos por las cartas'(extasis)
       Narrador 'Durante un tiempo estuvieron revisando cartas para mejorar su deck y como buenos carpeteros encontraron lo que necesitaban'(alegría)
       Ralix 'Oigan, quieren ir a comer o vamos a dar la vuelta?'(alegría)
     Acto : Menú: Ir a comer?
@@ -237,11 +237,11 @@ Me pregunto ¿Qué tipo de joyita eres?'(alegría)
 
 -- Noviazgo --
 - Ha pasado el tiempo y de la amistad ha nacido el amor -
-Total : 188 palabras, Escena : 8 palabras, Acto : 28 palabras, Diálogo : 152 palabras
+Total : 733 palabras, Escena : 8 palabras, Acto : 32 palabras, Diálogo : 693 palabras
 Sumario : Última cita de amigos
 Ralix y Zuky
 Se besan y se vuelven novios
- Total : 188 palabras, Escena : 8 palabras, Acto : 28 palabras, Diálogo : 152 palabras
+ Total : 733 palabras, Escena : 8 palabras, Acto : 32 palabras, Diálogo : 693 palabras
  Puntos relacionados : FrikyPlaza, Metro, Torre Latino
  Zona horaria : Mediodía
  Clima : Cielos soleados
@@ -264,9 +264,46 @@ Ultimo paso abrazarla mirarla a los ojos y abrir mi corazón'(ansioso)
       Narrador 'En su mente el imaginar el primer beso era algo que lo distraía mucho pero no dejaba de sonreir'
       Ralix 'Nos vemos papis por la tarde bye'(alegría)
       Familia Ralix 'nos vemos '(alegría)
-    Acto : Llegada
+    Acto : Abrazo
       Ralix 'uff hoy si llegue temprano'(alegría)
-      Ralix 'escuchemos un poco de musica en lo que llega'
+      Ralix 'escuchemos un poco de musica en lo que llega'(alegría)
+      Zuky 'No puede ser esta vez me ganó llevo 10 minutos de retraso '(tristeza)
+      Zuky 'Por qué justo y el metro se está tardando tanto '(molestia)
+      Zuky 'Ya no tardo Ralix llego en un momento, bueno con este mensaje espero que me espere '(ansioso)
+      Ralix 'Un mensaje veamos qué dice '(alegría)
+      Ralix 'O qué tiene Zuky, el metro no ayuda mucho '(alegría)
+      Multitud 'A los pocos minutos Zuky llegó y Ralix le dio un ramo de rosas '
+      Multitud 'Ambos después de poner al corriente de lo que había pasado el día se dirigieron a la torre latinoamericana '
+    Acto : Torre Latino
+      Ralix 'Pensé que me vamos al elevador te va a gustar la vista '(alegría)
+      Zuky 'Nunca he subido Me gustaría ver qué tal se ve '(alegría)
+      Ralix 'Me contaron que si te bajas un piso antes sale más barato discúlpame si no puedo pagar por el momento, pero aprovechamos y vamos a comer '(alegría)
+      Zuky 'No es necesario que gastes tanto con algo sencillo basta '(alegría)
+      Ralix 'Créeme para mí no es molestia al contrario te agradezco mucho tu comprensión '(alegría)
+      Narrador 'El deleite de la comida fue tan épico que ambos quedaron satisfechos.
+Fue tan dulce el momento de la plática que olvidaron que estaban en un punto demasiado elevado '
+      Narrador 'De reojo pudieron ver un helicóptero pasando ambos se acercaron al mirador y pudieron apreciar una gran vista '
+      Ralix 'Qué te parece es encantadora así como tú '(alegría)
+      Ralix 'Yo quisiera...... '(alegría)
+      Ralix 'Quisiera en verdad... agradecerte por todo. '(miedo)
+      Zuky 'No tienes que agradecer las pláticas que tenemos son muy amenas y al pasar tiempo contigo me parece muy agradable '(alegría)
+      Ralix 'Si me permites podemos ir al piso superior ahí podemos tener una vista mucho mejor '(alegría)
+      Narrador 'Ambos subieron el piso siguiente y pudieron aprovechar esa hermosa vista de toda la ciudad '
+    Acto : El beso
+      Narrador 'Posterior a la torre latinoamericana ambos fueron a caminar a la Alameda Central disfrutaron de un show platicaron se vieron a los ojos y en el momento más crucial rallys no tuvo el valor de besarla '
+      Ralix '( caray la pena y el miedo son bastante grandes en verdad que quiero tomarla en mis brazos y besarla pero me cuesta tanto) '(ansioso)
+      Zuky 'Y dime qué estás pensando? '(alegría)
+      Ralix 'Simplemente deleitándome la vista con tu dulce sonrisa '(adoración)
+      Narrador 'En ese momento una sensación en el pecho de Zuky comienza a emerger y al ver los ojos el anhelo y el deseo por besarlo es incomparable pero tampoco se atreve a besarlo '
+      Narrador 'Continuaron caminando uno al lado del otro riendo y dejando florecer la semilla del amor hasta que fue demasiado tarde y tuvieron que emprender el camino a casa '
+      Ralix 'Te agradezco infinitamente este hermoso día no sabes lo feliz que me has hecho '(optimismo)
+      Zuky 'En verdad me he sentido muy feliz gracias y te agradezco también por acompañarme a la última estación '(ansioso)
+      Ralix '( tengo miedo en verdad tengo miedo no quiero arruinarlo pero si no lo hago en este momento me arrepentiré el resto de mi vida) '(miedo)
+      Narrador 'Justo en ese momento ralix se acercó lentamente la tomó de sus mejillas y de una manera delicada pero firme le robó su primer beso '
+      Zuky '💓💞💕😱🥹🥰😍'(alegría)
+      Zuky '💓😍🥰😱🥹🥰😍💕💞💓'(alegría)
+      Zuky '🥰😍🥰😍💕💞🥹😱😍💕💞💞'(alegría)
+      Narrador 'Simplemente mediante este beso floreció la semilla del amor la cual había estado persistente en ambos corazones desde el día que se conocieron'
 
 
 -- Relación Novios --
@@ -396,13 +433,13 @@ Sumario : Salida a un cine lejano
       Narrador 'Pronto fueron los dos a comer ramen mientras esperaban que la película comenzara '
       Narrador 'El estar tomados de la mano permitía que sus corazones siguieran unidos '
     Acto : Cine 
-      Ralix 'Vamos princesa el cine está en el último piso ya no tarda la película '(éxtasis)
-      Zuky 'Sí vamos '(éxtasis)
-      Ralix 'Qué te gustaría que compremos de comer? '(éxtasis)
-      Zuky 'Mis palomitas con con bastante salsa Unos nachos queso '(éxtasis)
-      Ralix 'Y para tomar princesa? '(éxtasis)
-      Zuky 'Cómprame un Ice '(éxtasis)
-      Ralix 'Lo que pida mi niña hermosa '(éxtasis)
+      Ralix 'Vamos princesa el cine está en el último piso ya no tarda la película '(extasis)
+      Zuky 'Sí vamos '(extasis)
+      Ralix 'Qué te gustaría que compremos de comer? '(extasis)
+      Zuky 'Mis palomitas con con bastante salsa Unos nachos queso '(extasis)
+      Ralix 'Y para tomar princesa? '(extasis)
+      Zuky 'Cómprame un Ice '(extasis)
+      Ralix 'Lo que pida mi niña hermosa '(extasis)
       Narrador 'Una vez pedido sus golosinas entraron al cine a disfrutar de esa hermosa película '
       Narrador 'Desde su primer cita hasta el momento no han olvidado lo que es verse a los ojos al inicio y al final de cada película el saber que está en el uno para el otro es algo que no tiene precio '
     Acto : Pasear Por la plaza 
