@@ -95,7 +95,7 @@ screen navigation():
     vbox:
         style_prefix "nav"
         xalign 0.02
-        yalign 0.98
+        yalign 0.5
         spacing 10
 
         textbutton _("Volver") action Return()

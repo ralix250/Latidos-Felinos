@@ -15,7 +15,7 @@ image Ralix confianza    = Transform("images/personajes/ralix/ralix_confianza.pn
 image Ralix extasis      = Transform("images/personajes/ralix/ralix_extasis.png",        xpos = 0.07, ypos = 0.97, zoom = 0.6)
 image Ralix interes      = Transform("images/personajes/ralix/ralix_interes.png",        xpos = 0.07, ypos = 0.97, zoom = 0.6)
 image Ralix interes      = Transform("images/personajes/ralix/ralix_interes.png",        xpos = 0.07, ypos = 0.97, zoom = 0.6)
-image Ralix ira          = Transform("images/personajes/ralix/ralix_ira.png",            xpos = 0.07, ypos = 0.97, zoom = 0.6)
+image Ralix amor          = Transform("images/personajes/ralix/ralix_amor.png",          xpos = 0.07, ypos = 0.97, zoom = 0.6)
 image Ralix miedo        = Transform("images/personajes/ralix/ralix_miedo.png",          xpos = 0.07, ypos = 0.97, zoom = 0.6)
 image Ralix molestia     = Transform("images/personajes/ralix/ralix_molestia.png",       xpos = 0.07, ypos = 0.97, zoom = 0.6)
 image Ralix odio         = Transform("images/personajes/ralix/ralix_odio.png",           xpos = 0.07, ypos = 0.97, zoom = 0.6)
@@ -42,7 +42,7 @@ image Zuky confianza     = Transform("images/personajes/zuky/zuky_confianza.png"
 image Zuky extasis       = Transform("images/personajes/zuky/zuky_extasis.png",        xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky interes       = Transform("images/personajes/zuky/zuky_interes.png",        xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky interes       = Transform("images/personajes/zuky/zuky_interes.png",        xpos = 0.93, ypos = 0.97, zoom = 0.5)
-image Zuky ira           = Transform("images/personajes/zuky/zuky_ira.png",            xpos = 0.93, ypos = 0.97, zoom = 0.5)
+image Zuky amor          = Transform("images/personajes/zuky/zuky_amor.png",           xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky miedo         = Transform("images/personajes/zuky/zuky_miedo.png",          xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky molestia      = Transform("images/personajes/zuky/zuky_molestia.png",       xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky odio          = Transform("images/personajes/zuky/zuky_odio.png",           xpos = 0.93, ypos = 0.97, zoom = 0.5)
@@ -51,12 +51,40 @@ image Zuky pensativo     = Transform("images/personajes/zuky/zuky_pensativo.png"
 image Zuky rabia         = Transform("images/personajes/zuky/zuky_rabia.png",          xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky sorpresa      = Transform("images/personajes/zuky/zuky_sorpresa.png",       xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky terror        = Transform("images/personajes/zuky/zuky_terror.png",         xpos = 0.93, ypos = 0.97, zoom = 0.5)
-image Zuky trizteza      = Transform("images/personajes/zuky/zuky_tristeza.png",       xpos = 0.93, ypos = 0.97, zoom = 0.5)
+image Zuky tristeza      = Transform("images/personajes/zuky/zuky_tristeza.png",       xpos = 0.93, ypos = 0.97, zoom = 0.5)
 image Zuky vigilancia    = Transform("images/personajes/zuky/zuky_vigilancia.png",     xpos = 0.93, ypos = 0.97, zoom = 0.5)
 
+############################# Personajes secundarios ###########################
+############################# Personajes terciarios  ###########################
+image Ralix Friends      = Transform("images/personajes/ralix_friends.png",            xpos = 0.93, ypos = 0.97, zoom = 0.5)
+image Zuky Friends       = Transform("images/personajes/zuky_friends.png",             xpos = 0.07, ypos = 0.97, zoom = 0.6)
 ############################## Imagenes Background #############################
 
-image bg menu       = "images/background/BG_Menu_Latidos_Felinos.png"
-image bg ralix_room = "images/background/ralix_room.jpg"
-image bg zuky_room  = "images/background/zuky_room.jpg"
-image bg cita_1ra   = "images/background/BG_Primera_Cita.jpg"
+image bg ralix_room    = "images/background/ralix_room.jpg"
+image bg ralix_comedor = "images/background/bg_comedor_ralix.png"
+image bg zuky_room     = "images/background/zuky_room.jpg"
+image bg zuky_comedor  = "images/background/bg_comedor_zuky.png"
+image bg camion        = "images/background/bg_camion.png"
+image bg metro         = "images/background/bg_metro.png"
+image bg cine          = "images/background/bg_cine.png"
+image bg frikyplaza    = "images/background/bg_frikyplaza.png"
+image bg friky_int     = "images/background/bg_friky_camino.png"
+image bg friky_comida  = "images/background/bg_friky_comida.png"
+image bg friky_ramen   = "images/background/bg_friky_ramen.png"
+image bg zocalo_manana        = "images/background/bg_zocalo_mañana.png"
+image bg zocalo_romantico     = "images/background/bg_zocalo_romantico.png"
+image bg zocalo_tarde         = "images/background/bg_zocalo_tarde.png"
+image bg zocalo_comida_manana = "images/background/bg_zocalo_comida_manana.png"
+image bg zocalo_comida_noche  = "images/background/bg_zocalo_comida_noche.png"
+image bg torre_entrada        = "images/background/bg_torre_entrada.png"
+image bg torre_comedor        = "images/background/bg_torre_comedor.png"
+image bg torre_mirador        = "images/background/bg_torre_mirador.png"
+image bg alameda_diurna       = "images/background/bg_alameda_diurna.png"
+image bg alameda_minimalista  = "images/background/bg_alameda_minimalista.png"
+image bg alameda_noche        = "images/background/bg_alameda_noche.png"
+image bg piramide_sol         = "images/background/bg_piramide_sol.png"
+image bg valentine            = "images/background/bg_valentine.png"
+image bg valentine2            = "images/background/bg_valentine2.png"
+image bg plaza_comida_afuera  = "images/background/bg_plaza_comida_afuera.jpg"
+image bg plaza_comida_dentro  = "images/background/bg_plaza_comida_dentro.jpg"
+image bg casa_ideal           = "images/background/bg_casa_ideal.png"

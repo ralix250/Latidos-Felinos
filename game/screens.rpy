@@ -617,7 +617,7 @@ screen about():
     ## Esta sentencia 'use' incluye la pantalla 'game_menu' dentro de esta. El
     ## elemento 'vbox' se incluye entonces dentro del 'viewport' al interno de
     ## la pantalla 'game_menu'.
-    use game_menu(_("Acerca de"), scroll="viewport"):
+    use game_menu(_("Huellitas de nuestro amor 🐾💕"), scroll="viewport"):
 
         style_prefix "about"
 
@@ -1694,3 +1694,46 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+# === MENÚ FINAL SAN VALENTÍN - SOLO ESTA SCREEN ===
+screen final_sanvalentin_menu(items):
+    modal True
+    zorder 200
+
+    add "images/background/bg_valentine.png" xalign 0.5 yalign 0.5 zoom 1.05
+
+    #frame:
+    #    xalign 0.5
+    #    yalign 0.5
+    #    xysize (800, 400)
+    #    background "#00000080"  # fondo negro semi-transparente (cámbialo por tu imagen si quieres)
+
+    vbox:
+        xalign 0.5
+        yalign 0.9
+        spacing 60
+        #text "":
+        #    xalign 0.5
+        #    size 48
+        #    color "#ff69b4"
+        #    outlines [(4, "#000000", 0, 0)]
+        hbox:
+            xalign 0.5
+            spacing 120
+            textbutton "¡SÍ! 🐾💕":
+                action Return(0)
+                xsize 320
+                ysize 140
+                background "#ff69b4"
+                hover_background "#ff85c0"
+                text_size 40
+                text_color "#ffffff"
+                
+            textbutton "No... 😿":
+                action Return(1)
+                xsize 320
+                ysize 140
+                background "#696969"
+                hover_background "#808080"
+                text_size 40
+                text_color "#ffffff"

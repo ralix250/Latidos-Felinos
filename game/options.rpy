@@ -30,8 +30,11 @@ define config.version = "1.1.0"  # Establece el número de versión del juego pa
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
 ## comillas triples y deja una línea en blanco entre párrafos.
 
-define gui.about = _p("""
-""")  # Define el texto para la sección "Acerca de", actualmente vacío entre comillas triples
+define gui.about = _(
+    "Nuestro amor ha sido una hermosa semilla que hemos cultivado desde el primer día... "
+    "y ya comenzó a dar frutos 🐾💕\n\n"
+    "Gracias por acompañarnos en este viaje."
+)  # Define el texto para la sección "Acerca de", actualmente vacío entre comillas triples
 
 
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
@@ -151,7 +154,8 @@ define config.save_directory = "LatidosFelinos-1769931155"
 ##
 ## El icono mostrado en la barra de tareas.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/miau_icon.png"
+
 
 
 ## Configuración de 'Build' ####################################################
